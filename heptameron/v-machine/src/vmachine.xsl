@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" exclude-result-prefixes="tei"
+<xsl:stylesheet version="2.0" exclude-result-prefixes="tei"
    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
    xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,13 @@
 
 
    <xsl:template match="/">
+      
       <!-- GENERATE BASIC HTML STRUCTURE -->
+      <!--<xsl:for-each select="//tei:app">
+         <xsl:variable name="id-div1" select="tei:rdg[1]/tei:div/@xml:id"/>
+         <xsl:variable name="id-div2" select="tei:rdg[2]/tei:div/@xml:id"/>
+         <xsl:variable name="file-name" select="concat($id-div1,'-',$id-div2)"/>
+         <xsl:result-document href="heptameron-{$file-name}.html">-->
       <html lang="en">
          <xsl:call-template name="htmlHead"/>
          <body>
@@ -46,6 +52,8 @@
 
          </body>
       </html>
+         <!--</xsl:result-document>
+      </xsl:for-each>-->
    </xsl:template>
 
 
@@ -433,13 +441,6 @@
          <xsl:with-param name="witId" select="$witId"/>
       </xsl:apply-templates>
    </xsl:template>
-<<<<<<< HEAD
-=======
-   
-   <xsl:template match="//tei:div">
-      <xsl:apply-templates/>
-   </xsl:template>
->>>>>>> 8b2e1b430f911fa2e8276b1eefcdbc9f09209dc9
 
    <xsl:template match="/tei:TEI/tei:teiHeader/tei:fileDesc">
       <div id="bibPanel">
@@ -457,21 +458,9 @@
                <h3> by <xsl:value-of select="tei:titleStmt/tei:author"/>
                </h3>
             </xsl:if>
-<<<<<<< HEAD
             <xsl:if test="tei:sourceDesc">
                <h4>Original Source</h4>
                <xsl:apply-templates select="tei:sourceDesc"/>
-=======
-            <xsl:if test="tei:sourceDesc/tei:msDesc">
-               <h4>Original Source</h4>
-               <p><xsl:value-of select="//tei:settlement"/>, <xsl:value-of select="//tei:repository"/><xsl:text> </xsl:text><xsl:value-of select="//tei:idno[@type='shelfmark']"/></p>
-               <xsl:for-each select="//tei:msItem">
-                  <p>
-                     <xsl:value-of select="@n"/>, <xsl:value-of select="tei:locus"/>. <xsl:if test="tei:incipit">Incipit: <xsl:value-of select="tei:incipit"/></xsl:if>
-                  </p>
-               </xsl:for-each>
-               <!--<xsl:apply-templates select="tei:sourceDesc"/>-->
->>>>>>> 8b2e1b430f911fa2e8276b1eefcdbc9f09209dc9
             </xsl:if>
             <h4>Witness List</h4>
             <ul>
@@ -752,11 +741,6 @@
          <xsl:value-of select="."/>
       </span>
    </xsl:template>
-<<<<<<< HEAD
-=======
-   
-
->>>>>>> 8b2e1b430f911fa2e8276b1eefcdbc9f09209dc9
 
    <xsl:template
       match="tei:head | tei:title | tei:epigraph | tei:div | tei:div1 | tei:div2 | tei:div3 | tei:div4 | tei:div5 | tei:div6 | tei:div7 | tei:div8 | tei:lg | tei:ab">
@@ -1359,11 +1343,7 @@
                <xsl:with-param name="label" select="'Regularized form:'"/>
             </xsl:call-template>
          </xsl:when>
-<<<<<<< HEAD
          <xsl:when test="tei:abbr and tei:expan">
-=======
-          <xsl:when test="tei:abbr and tei:expan">
->>>>>>> 8b2e1b430f911fa2e8276b1eefcdbc9f09209dc9
             <xsl:call-template name="displayChoice">
                <xsl:with-param name="inline" select="tei:abbr"/>
                <xsl:with-param name="hover" select="tei:expan"/>
@@ -1480,22 +1460,12 @@
    </xsl:template>
 
    <xsl:template match="tei:ref">
-<<<<<<< HEAD
       <a class="link">
          <xsl:attribute name="href">
             <xsl:value-of select="@target"/>
          </xsl:attribute>
          <xsl:value-of select="."/>
       </a>
-=======
-      <xsl:variable name="target" select="substring(@target,2)"/>
-      <xsl:variable name="label" select="//*[@xml:id=$target]/parent::*/@n"/>
-      <xsl:variable name="hover" select="//*[@xml:id=$target]"/>
-      <div class="choice">
-         <span class="textcontent"><xsl:value-of select="."/></span>
-         <div class="corr">
-            <div class="interior"><strong><xsl:value-of select="$label"/>:</strong> <span class="textcontent"><xsl:value-of select="$hover"/></span></div></div></div>
->>>>>>> 8b2e1b430f911fa2e8276b1eefcdbc9f09209dc9
    </xsl:template>
    <xsl:template match="tei:closer | tei:closer | tei:salute | tei:signed">
       <xsl:param name="witId"/>

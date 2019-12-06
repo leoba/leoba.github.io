@@ -1,0 +1,677 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+   <head>
+      <title>The Digital Heptaméron/L'Heptaméron Numé... -- The Versioning Machine 5.0</title>
+      <meta charset="utf-8"></meta>
+      <link rel="stylesheet" type="text/css" href="../src/js/jquery-ui-1.11.3/jquery-ui.min.css"></link>
+      <link rel="stylesheet" type="text/css" href="../src/vmachine.css"></link><script type="text/javascript" src="../src/js/jquery-1.11.2.min.js"></script><script type="text/javascript" src="../src/js/jquery-ui-1.11.3/jquery-ui.min.js"></script><link rel="stylesheet" type="text/css" href="../src/panzoom/panzoom.css"></link><script type="text/javascript" src="../src/panzoom/jquery.panzoom.min.js"></script><script type="text/javascript">
+       /*NOTES PANEL: To change the VM so
+      that the notes panel page does not appear at the initial load, change the constant
+      INITIAL_DISPLAY_BIB_PANEL from "true" to "false" below */ INITIAL_DISPLAY_NOTES_PANEL =
+         false; /*BIB PANEL: To change the VM so that the
+      bibliographic information page does not appear at the initial load, change the constant
+      INITIAL_DISPLAY_BIB_PANEL from "true" to "false" below */ INITIAL_DISPLAY_BIB_PANEL =
+         true; /**The number of version/witness panels to be
+      displayed initially */ INITIAL_DISPLAY_NUM_VERSIONS = 2; /** CRIT PANEL: Critical information should be encoded as
+      tei:notesStmt/tei:note[@type='critIntro'] in the TEI files --&gt; * To change the VM so that
+      the critical information page does not * appear at the initial load, change the constant
+      INITIAL_DISPLAY_CRIT_PANEL from "true" to "false" */ INITIAL_DISPLAY_CRIT_PANEL =
+         false; /** To change the VM so that line numbers are
+      hidden by default, change the constant INITIAL_DISPLAY_LINENUMBERS from * "true" to "false" */
+      INITIAL_DISPLAY_LINENUMBERS = true; var timelinePoints = new Array();var timelineDurations = new Array();</script><script type="text/javascript" src="../src/vmachine.js"></script></head>
+   <body>
+      <div id="mainBanner">
+         <div id="brandingLogo"><a href="../samples.html"><img id="logo" alt="Powered by the Versioning Machine" src="../vm-images/LogoSilver.png"></img></a></div>
+         <div id="bannerImageContainer"><img id="logo" alt="Powered by the Versioning Machine" src="../vm-images/HeaderBackground.png"></img><div id="headline">
+               <h1>The Digital Heptaméron/L'Heptaméron Numé...</h1>
+            </div>
+            <nav id="mainControls">
+               <ul>
+                  <li><button id="selectVersion" class="topMenuButton dropdownButton">2 Total Versions<img class="noDisplay" src="vmachine-Dateien/menuArrowUp.htm" alt="arrow up"></img><img src="vmachine-Dateien/menuArrowDown.htm" alt="arrow down"></img></button><ul id="versionList" class="dropdown notVisible">
+                        <li data-panelid="g">
+                           <div class="listText">
+                              <div><a href="#" title="g: Gruget (1560) Day Seven">Version g</a></div>
+                              <div><button>OFF</button></div>
+                           </div>
+                        </li>
+                        <li data-panelid="b">
+                           <div class="listText">
+                              <div><a href="#" title="b: BnF ms fr 1520">Version b</a></div>
+                              <div><button>OFF</button></div>
+                           </div>
+                        </li>
+                     </ul>
+                  </li>
+                  <li data-panelid="bibPanel" title="Clicking this button triggers the bibliographic panel to appear&#xA;            or disappear."><button class="topMenuButton">Bibliographic panel</button></li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+      <div id="mssArea">
+         <div id="bibPanel" class="ui-widget-content ui-resizable panel noDisplay">
+            <div class="panelBanner"><img class="closePanel" title="Close panel" src="vmachine-Dateien/closePanelButton.htm" alt="X (Close panel)"></img> Bibliographic Information 
+            </div>
+            <div class="bibContent">
+               <h2>The Digital Heptaméron/L'Heptaméron Numérique</h2>
+               <h4>Original Source</h4>
+               <p>Philadelphia, University of Pennsylvania Library FC5 M3379 558h 1560</p>
+               <p>Prologue, Day 1, ff. 1r-6v. </p>
+               <p>Novella 1, ff. 7r-10v. </p>
+               <p>Novella 2, ff. 10v-12r. </p>
+               <p>Novella 3, ff. 12r-15r. </p>
+               <p>Novella 4, ff. 15r-18r. </p>
+               <p>Novella 5, ff. 18r-19v. </p>
+               <p>Novella 6, ff. 20r-21r. </p>
+               <p>Novella 7, ff. 21r-22r. </p>
+               <p>Novella 8, ff. 22r-25r. </p>
+               <p>Novella 9, ff. 25r-27v. </p>
+               <p>Novella 10, ff. 27v-42r. </p>
+               <p>Prologue, Day 2, ff. 42v-43r. </p>
+               <p>Gruget, épave 1, ff. 43r-44v. </p>
+               <p>Novella 12, ff. 44v-48r. </p>
+               <p>Novella 13, ff. 48r-54v. </p>
+               <p>Novella 14, ff. 54v-57v. </p>
+               <p>Novella 15, ff. 57v-63v. </p>
+               <p>Novella 16, ff. 63v-66r. </p>
+               <p>Novella 17, ff. 66r-67v. </p>
+               <p>Novella 18, ff. 67v-70r. </p>
+               <p>Novella 19, ff. 70v-75v. </p>
+               <p>Novella 20, ff. 75v-77v. </p>
+               <p>Prologue, Day 3, ff. 78r-78v. </p>
+               <p>Novella 21, ff. 78v-87r. </p>
+               <p>Novella 22, ff. 87r-92r. </p>
+               <p>Novella 23, ff. 92r-95r. </p>
+               <p>Novella 24, ff. 95r-100r. </p>
+               <p>Novella 25, ff. 100r-102v. </p>
+               <p>Novella 26, ff. 102v-109r. </p>
+               <p>Novella 27, ff. 109r-109v. </p>
+               <p>Novella 28, ff. 110r-111r. </p>
+               <p>Novella 29, ff. 111r-112r. </p>
+               <p>Novella 30, ff. 112r-115r. </p>
+               <p>Prologue, Day 4, ff. 115v-116r. </p>
+               <p>Novella 31, ff. 116r-118r. </p>
+               <p>Novella 32, ff. 118v-120v. </p>
+               <p>Novella 33, ff. 120v-122v. </p>
+               <p>Novella 34, ff. 122v-124v. </p>
+               <p>Novella 35, ff. 124v-127v. </p>
+               <p>Novella 36, ff. 127v-130r. </p>
+               <p>Novella 37, ff. 130r-131v. </p>
+               <p>Novella 38, ff. 131v-132v. </p>
+               <p>Novella 39, ff. 133r-133v. </p>
+               <p>Novella 40, ff. 134r-137r. </p>
+               <p>Prologue, Day 5, ff. 137v-138r. </p>
+               <p>Novella 41, ff. 138r-139v. </p>
+               <p>Novella 42, ff. 139v-144r. </p>
+               <p>Novella 43, ff. 144v-147r. </p>
+               <p>Gruget, épave 2, ff. 147r-150r. </p>
+               <p>Novella 45, ff. 150v-152r. </p>
+               <p>Gruget, épave 3, ff. 152r-153v. </p>
+               <p>Novella 47, ff. 153v-155v. </p>
+               <p>Novella 48, ff. 155v-156v. </p>
+               <p>Novella 49, ff. 156v-159v. </p>
+               <p>Novella 50, ff. 159v-161r. </p>
+               <p>Prologue, Day 6, ff. 161v-162r. </p>
+               <p>Novella 51, ff. 162r-16[4]r. </p>
+               <p>Novella 52, ff. 16[4]r-165v. </p>
+               <p>Novella 53, ff. 165v-168v. </p>
+               <p>Novella 54, ff. 168v-169v. </p>
+               <p>Novella 55, ff. 169v-171r. </p>
+               <p>Novella 56, ff. 171r-173v. </p>
+               <p>Novella 57, ff. 173v-175r. </p>
+               <p>Novella 58, ff. 175r-176v. </p>
+               <p>Novella 59, ff. 177r-179v. </p>
+               <p>Novella 60, ff. 179v-181v. </p>
+               <p>Prologue, Day 7, ff. 182r-182v. </p>
+               <p>Novella 61, ff. 182v-185v. </p>
+               <p>Novella 62, ff. 185v-187r. </p>
+               <p>Novella 63, ff. 187r-188v. </p>
+               <p>Novella 64, ff. 188v-191r. </p>
+               <p>Novella 65, ff. 191r-192r. </p>
+               <p>Novella 66, ff. 192r-195r. </p>
+               <p>Novella 67, ff. 195r-196v. </p>
+               <p>Novella 68, ff. 196v-197v. </p>
+               <p>Novella 69, ff. 197v-199r. </p>
+               <p>Novella 70, ff. 199r-208v. </p>
+               <p>Prologue, Day 8, ff. 209r-209v. </p>
+               <p>Novella 71, ff. 209v-210v. </p>
+               <p>Novella 72, ff. 210v-212v. </p>
+               <p>Jean Vezou sonnet, f. 212v. Incipit: Timon Athenien, grand ennemy de l'homme</p>
+               <p>Privilege, ff. [213r]-[213v]. </p>
+               <p>Colophon, f. [214]r. </p>
+               <p>Prologue, Day 1, pp. 1-13. Incipit: Le premier jour de Septembre que les bains des mons Pyrenées
+                  commencent entrer en leur vertu
+               </p>
+               <p>Novella 1, pp. 13-21. </p>
+               <p>Novella 2, pp. 21-25. </p>
+               <p>Novella 3, pp. 25-32. </p>
+               <p>Novella 4, pp. 32-40. </p>
+               <p>Novella 5, pp. 40-44. </p>
+               <p>Novella 6, pp. 44-47. </p>
+               <p>Novella 7, pp. 47-49. </p>
+               <p>Novella 8, pp. 49-55. </p>
+               <p>Novella 9, pp. 55-61. </p>
+               <p>Novella 10, pp. 61-95. </p>
+               <p>Prologue, Day 2, pp. 95-96. </p>
+               <p>Novella 11, pp. 96-98. </p>
+               <p>Novella 12, pp. 98-106. </p>
+               <p>Novella 13, pp. 106-120. </p>
+               <p>Novella 14, pp. 120-127. </p>
+               <p>Novella 15, pp. 127-140. </p>
+               <p>Novella 16, pp. 140-145. </p>
+               <p>Novella 17, pp. 145-149. </p>
+               <p>Novella 18, pp. 149-154. </p>
+               <p>Novella 19, pp. 154-165. </p>
+               <p>Novella 20, pp. 165-169. </p>
+               <p>Prologue, Day 3, pp. 169-170. </p>
+               <p>Novella 21, pp. 170-190. </p>
+               <p>Novella 22, pp. 190-201. </p>
+               <p>Novella 23, pp. 201-208. </p>
+               <p>Novella 24, pp. 208-217. </p>
+               <p>Novella 25, pp. 217-221. </p>
+               <p>Novella 26, pp. 221-232. </p>
+               <p>Novella 27, pp. 232-234. </p>
+               <p>Novella 28, pp. 234-236. </p>
+               <p>Novella 29, pp. 236-238. </p>
+               <p>Novella 30, pp. 238-243. </p>
+               <p>Prologue, Day 4, pp. 243-244. </p>
+               <p>Novella 31, pp. 244-248. </p>
+               <p>Novella 32, pp. 248-251. </p>
+               <p>Novella 33, pp. 251-254. </p>
+               <p>Novella 34, pp. 254-257. </p>
+               <p>Novella 35, pp. 257-262. </p>
+               <p>Novella 36, pp. 262-266. </p>
+               <p>Novella 37, pp. 266-269. </p>
+               <p>Novella 38, pp. 269-271. </p>
+               <p>Novella 39, pp. 271-272. </p>
+               <p>Novella 40, pp. 272-277. </p>
+               <p>Prologue, Day 5, p. 278. </p>
+               <p>Novella 41, pp. 278-281. </p>
+               <p>Novella 42, pp. 281-289. </p>
+               <p>Novella 43, pp. 289-293. </p>
+               <p>Novella 44, pp. 293-295. </p>
+               <p>Novella 45, pp. 295-298. </p>
+               <p>Novella 46, pp. 298-300. </p>
+               <p>Novella 47, pp. 300-303. </p>
+               <p>Novella 48, pp. 303-304. </p>
+               <p>Novella 49, pp. 304-308. </p>
+               <p>Novella 50, pp. 308-311. </p>
+               <p>Prologue, Day 6, pp. 311-312. </p>
+               <p>Novella 51, pp. 312-314. </p>
+               <p>Novella 52, pp. 314-317. </p>
+               <p>Novella 53, pp. 317-321. </p>
+               <p>Novella 54, pp. 321-323. </p>
+               <p>Novella 55, pp. 323-325. </p>
+               <p>Novella 56, pp. 325-329. </p>
+               <p>Novella 57, pp. 329-331. </p>
+               <p>Novella 58, pp. 331-333. </p>
+               <p>Novella 59, pp. 333-337. </p>
+               <p>Novella 60, pp. 337-339. </p>
+               <p>Prologue, Day 7, pp. 339-340. </p>
+               <p>Novella 61, pp. 340-344. </p>
+               <p>Novella 62, pp. 344-346. </p>
+               <p>Novella 63, pp. 346-348. </p>
+               <p>Novella 64, pp. 348-351. </p>
+               <p>Novella 65, pp. 351-352. </p>
+               <p>Novella 66, pp. 352-354. </p>
+               <p>Novella 67, pp. 354-356. </p>
+               <p>Novella 68, pp. 356-357. </p>
+               <p>Novella 69, pp. 357-359. </p>
+               <p>Novella 70, pp. 359-371. </p>
+               <p>Prologue, Day 8, pp. 371-372. </p>
+               <p>Novella 71, pp. 372-373. </p>
+               <p>Novella 72, pp. 373-375. </p>
+               <h4>Witness List</h4>
+               <ul>
+                  <li><strong>Witness g:</strong> Gruget (1560) Day Seven
+                  </li>
+                  <li><strong>Witness b:</strong> BnF ms fr 1520
+                  </li>
+               </ul>
+               <h4>Electronic Edition Information:</h4>
+               <h5>Publication Details:</h5>
+               
+               <p>Publication Information</p>
+               
+            </div>
+         </div>
+         <div class="ui-widget-content ui-resizable panel mssPanel noDisplay" id="g">
+            <div class="panelBanner"><img class="closePanel" title="Close panel" src="vmachine-Dateien/closePanelButton.htm" alt="X (Close panel)"></img><a title="Version g: Gruget (1560) Day Seven">Version g: Gruget (1560) Day Seven</a></div>
+            <div class="mssContent">
+               
+               <hr class="pagebreak b" data-version-id="b"></hr>
+               <div class="facs-images  b" data-version-id="b"></div> 
+               
+               <hr class="pagebreak g" data-version-id="g"></hr>
+               <div class="facs-images  g" data-version-id="g"><img src="../vm-images/image.png" alt="Facsimile Image Placeholder" title="Open the image viewer" class="imgLink g" data-version-id="g" data-img-url="w105v" data-img-id="w105v"></img></div>
+               
+               
+               <div class="head">
+                  <div style="display:inline" class="apparatus apparatus_1" data-app-id="apparatus_1">
+                     
+                     <div style="display:inline" class="reading b" data-reading-wits="b"><span class="textcontent">SETIÉME JOURNEE</span></div>
+                     <div style="display:inline" class="reading g" data-reading-wits="g"><span class="textcontent">TEST</span></div>
+                  </div>
+               </div>
+               
+               <div class="paragraph"><span class="textcontent"> AU matin ne fallit ma dam'Oisillede leur administrer la salutaire pature
+                     </span>
+                  |
+                  <span class="textcontent">
+                     qu'ele print en la lecture des </span><div class="choice"><span class="textcontent">actes</span><div class="corr">
+                        <div class="interior"><strong>:</strong><span class="textcontent"></span></div>
+                     </div>
+                  </div><span class="textcontent"> &amp; vertueus fais des glorieus chevaliers &amp;
+                     </span>
+                  |
+                  
+                  
+                  <div class="choice"><span class="textcontent">apotres</span><div class="corr">
+                        <div class="interior"><strong>:</strong><span class="textcontent"></span></div>
+                     </div>
+                  </div><span class="textcontent"> de </span><div class="choice"><span class="textcontent">
+                        Giesuchrist
+                        Giesuchrit
+                        </span><div class="corr">
+                        <div class="interior"><strong>:</strong><span class="textcontent"></span></div>
+                     </div>
+                  </div><span class="textcontent">
+                     selon </span><div class="choice"><span class="textcontent">S.Luc</span><div class="corr">
+                        <div class="interior"><strong>:</strong><span class="textcontent"></span></div>
+                     </div>
+                  </div><span class="textcontent">, leur disant </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> ces contes là devoient etre suf
+                     </span>
+                  |
+                  <span class="textcontent">
+                     fisans pour desirer voir un tel tans, &amp; pleurer la difformité de cetuici envers
+                     </span>
+                  |
+                  <span class="textcontent">
+                     cetuilà. &amp; quant el'ut suffisanmant lu &amp; exposé le </span><div class="choice"><span class="textcontent">c</span><span class="textcontent">ō</span><span class="textcontent">mancem</span><span class="textcontent">ā</span><span class="textcontent">t</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">c</span><span class="textcontent">om</span><span class="textcontent">mancem</span><span class="textcontent">an</span><span class="textcontent">t</span></div>
+                     </div>
+                  </div><span class="textcontent"> de ce digne
+                     </span>
+                  |
+                  <span class="textcontent">
+                     livre les pria d'aler à l'eglise en l'union </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> les </span><div class="choice"><span class="textcontent">Apotres</span><div class="corr">
+                        <div class="interior"><strong>:</strong><span class="textcontent"></span></div>
+                     </div>
+                  </div><span class="textcontent"> faisoient leur oraison &amp; de
+                     </span><hr class="pagebreak"></hr>
+                  <span class="textcontent">
+                     mander à Dieu sa grace, laquele jamais n'ét refusée à ceus qui en foi la requierent.
+                     </span>
+                  |
+                  <span class="textcontent">
+                     Cet'opinion fut trouvée d'un chacun fort bonne, &amp; arriverent à l'eglise ainsi </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div>
+                  
+                  |
+                  <span class="textcontent">
+                     l'on commançoit la Messe du S. Esprit ‧ qui sanbloit chose venir à leur propos ‧ qui
+                     </span>
+                  |
+                  <span class="textcontent">
+                     leur fit ouyr le service en grande devocion. Puys s'en alerent diner </span><div class="choice"><span class="textcontent">ram</span><span class="textcontent">ā</span><span class="textcontent">tévans</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">ram</span><span class="textcontent">an</span><span class="textcontent">tévans</span></div>
+                     </div>
+                  </div>
+                  
+                  |
+                  <span class="textcontent">
+                     cet'hureuse </span><div class="choice"><span class="textcontent">vie Apostolique</span><div class="corr">
+                        <div class="interior"><strong>:</strong><span class="textcontent"></span></div>
+                     </div>
+                  </div><span class="textcontent"> ‧ à quoi ilz prindrent tel plaisir, </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> quasi leur an
+                     </span>
+                  |
+                  <span class="textcontent">
+                     treprise etoit oubliée ‧ de quoi s'avisa Nomerfide comme la plus jeune, &amp;
+                     </span>
+                  |
+                  <span class="textcontent">
+                     leur dit ‧ Madam'Oisille nous a tant roulés en devocion  </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> nous passons l'heu
+                     </span>
+                  |
+                  <span class="textcontent">
+                     re acoutumée de nous retirer pour nous preparer à conter nos noveles. Sa
+                     </span>
+                  |
+                  <span class="textcontent">
+                     parole fut ocasion de faire lever toute la conpagnie. &amp; apres avoir demeuré
+                     </span>
+                  |
+                  <span class="textcontent">
+                     bien peu en leurs chambres, ne fallirent point de se trouver au pré, </span><div class="choice"><span class="textcontent">c</span><span class="textcontent">ō</span><span class="textcontent">m</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">c</span><span class="textcontent">om</span><span class="textcontent">m</span></div>
+                     </div>
+                  </div><span class="textcontent">'ilz
+                     </span>
+                  |
+                  <span class="textcontent">
+                     avoient fait le jour de devant. &amp; quant ilz furent bien à leur ayse, ma dame
+                     </span>
+                  |
+                  <span class="textcontent">
+                     Oisille dit à Saffredent: Encore </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> je soie assurée </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> vous ne direz rien à </span><div class="choice"><span class="textcontent">l'av</span><span class="textcontent">ā</span><span class="textcontent">tage</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">l'av</span><span class="textcontent">an</span><span class="textcontent">tage</span></div>
+                     </div>
+                  </div>
+                  
+                  |
+                  <span class="textcontent">
+                     des fanmes, si esse qu'il faut </span><div class="choice"><span class="textcontent">qz</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> je vous avise de dire la nouvele </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> des arsoir
+                     </span>
+                  |
+                  <span class="textcontent">
+                     vous avez prété. Je proteste ma dame (dit Saffredent) </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> je n'acquerai point
+                     </span>
+                  |
+                  <span class="textcontent">
+                     le deshonneur de medisant pour dire verité: &amp; ne perderai point la grace
+                     </span>
+                  |
+                  <span class="textcontent">
+                     des dames vertueuses pour raconter ce </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> les foles ont fait ‧ car j'ay bien ex
+                     </span>
+                  |
+                  <span class="textcontent">
+                     perimanté </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> c'ét d'étre elongné seulement de leur vue.  &amp; si je l'usse eté </span><div class="choice"><span class="textcontent">aut</span><span class="textcontent">ā</span><span class="textcontent">t</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">aut</span><span class="textcontent">an</span><span class="textcontent">t</span></div>
+                     </div>
+                  </div>
+                  
+                  |
+                  <span class="textcontent">
+                     de leur bonne grace je ne fusse pas à cet'heur'en vie. &amp; en ce disant tourna les
+                     </span>
+                  |
+                  <span class="textcontent">
+                     yeus au contraire de cele qui etoit cause de son bien &amp; de son mal. Mais en regar
+                     </span>
+                  |
+                  <span class="textcontent">
+                     dant Ennasuite, la fit aussi bien rougir comme si ç'ut eté à ele à qui le propoz
+                     </span>
+                  |
+                  <span class="textcontent">
+                     se fut adressé. Si esse qu'il n'en fut point moins antandu du lieu où il desiroit
+                     </span>
+                  |
+                  <span class="textcontent">
+                     etre ouy. Madam'Oisille l'assura qu'il pouvoit dire verité librement aus de
+                     </span>
+                  |
+                  <span class="textcontent">
+                     pans de qui il apartiendroit. A l'heure </span><div class="choice"><span class="textcontent">c</span><span class="textcontent">ō</span><span class="textcontent">mança</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">c</span><span class="textcontent">om</span><span class="textcontent">mança</span></div>
+                     </div>
+                  </div><span class="textcontent"> Saffredent, &amp; dit.
+                     </span></div>
+               
+               
+               
+               
+            </div>
+         </div>
+         <div class="ui-widget-content ui-resizable panel mssPanel noDisplay" id="b">
+            <div class="panelBanner"><img class="closePanel" title="Close panel" src="vmachine-Dateien/closePanelButton.htm" alt="X (Close panel)"></img><a title="Version b: BnF ms fr 1520">Version b: BnF ms fr 1520</a></div>
+            <div class="mssContent">
+               
+               <hr class="pagebreak b" data-version-id="b"></hr>
+               <div class="facs-images  b" data-version-id="b"></div> 
+               
+               <hr class="pagebreak g" data-version-id="g"></hr>
+               <div class="facs-images  g" data-version-id="g"><img src="../vm-images/image.png" alt="Facsimile Image Placeholder" title="Open the image viewer" class="imgLink g" data-version-id="g" data-img-url="w105v" data-img-id="w105v"></img></div>
+               
+               
+               <div class="head">
+                  <div style="display:inline" class="apparatus apparatus_1" data-app-id="apparatus_1">
+                     
+                     <div style="display:inline" class="reading b" data-reading-wits="b"><span class="textcontent">SETIÉME JOURNEE</span></div>
+                     <div style="display:inline" class="reading g" data-reading-wits="g"><span class="textcontent">TEST</span></div>
+                  </div>
+               </div>
+               
+               <div class="paragraph"><span class="textcontent"> AU matin ne fallit ma dam'Oisillede leur administrer la salutaire pature
+                     </span>
+                  |
+                  <span class="textcontent">
+                     qu'ele print en la lecture des </span><div class="choice"><span class="textcontent">actes</span><div class="corr">
+                        <div class="interior"><strong>:</strong><span class="textcontent"></span></div>
+                     </div>
+                  </div><span class="textcontent"> &amp; vertueus fais des glorieus chevaliers &amp;
+                     </span>
+                  |
+                  
+                  
+                  <div class="choice"><span class="textcontent">apotres</span><div class="corr">
+                        <div class="interior"><strong>:</strong><span class="textcontent"></span></div>
+                     </div>
+                  </div><span class="textcontent"> de </span><div class="choice"><span class="textcontent">
+                        Giesuchrist
+                        Giesuchrit
+                        </span><div class="corr">
+                        <div class="interior"><strong>:</strong><span class="textcontent"></span></div>
+                     </div>
+                  </div><span class="textcontent">
+                     selon </span><div class="choice"><span class="textcontent">S.Luc</span><div class="corr">
+                        <div class="interior"><strong>:</strong><span class="textcontent"></span></div>
+                     </div>
+                  </div><span class="textcontent">, leur disant </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> ces contes là devoient etre suf
+                     </span>
+                  |
+                  <span class="textcontent">
+                     fisans pour desirer voir un tel tans, &amp; pleurer la difformité de cetuici envers
+                     </span>
+                  |
+                  <span class="textcontent">
+                     cetuilà. &amp; quant el'ut suffisanmant lu &amp; exposé le </span><div class="choice"><span class="textcontent">c</span><span class="textcontent">ō</span><span class="textcontent">mancem</span><span class="textcontent">ā</span><span class="textcontent">t</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">c</span><span class="textcontent">om</span><span class="textcontent">mancem</span><span class="textcontent">an</span><span class="textcontent">t</span></div>
+                     </div>
+                  </div><span class="textcontent"> de ce digne
+                     </span>
+                  |
+                  <span class="textcontent">
+                     livre les pria d'aler à l'eglise en l'union </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> les </span><div class="choice"><span class="textcontent">Apotres</span><div class="corr">
+                        <div class="interior"><strong>:</strong><span class="textcontent"></span></div>
+                     </div>
+                  </div><span class="textcontent"> faisoient leur oraison &amp; de
+                     </span><hr class="pagebreak"></hr>
+                  <span class="textcontent">
+                     mander à Dieu sa grace, laquele jamais n'ét refusée à ceus qui en foi la requierent.
+                     </span>
+                  |
+                  <span class="textcontent">
+                     Cet'opinion fut trouvée d'un chacun fort bonne, &amp; arriverent à l'eglise ainsi </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div>
+                  
+                  |
+                  <span class="textcontent">
+                     l'on commançoit la Messe du S. Esprit ‧ qui sanbloit chose venir à leur propos ‧ qui
+                     </span>
+                  |
+                  <span class="textcontent">
+                     leur fit ouyr le service en grande devocion. Puys s'en alerent diner </span><div class="choice"><span class="textcontent">ram</span><span class="textcontent">ā</span><span class="textcontent">tévans</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">ram</span><span class="textcontent">an</span><span class="textcontent">tévans</span></div>
+                     </div>
+                  </div>
+                  
+                  |
+                  <span class="textcontent">
+                     cet'hureuse </span><div class="choice"><span class="textcontent">vie Apostolique</span><div class="corr">
+                        <div class="interior"><strong>:</strong><span class="textcontent"></span></div>
+                     </div>
+                  </div><span class="textcontent"> ‧ à quoi ilz prindrent tel plaisir, </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> quasi leur an
+                     </span>
+                  |
+                  <span class="textcontent">
+                     treprise etoit oubliée ‧ de quoi s'avisa Nomerfide comme la plus jeune, &amp;
+                     </span>
+                  |
+                  <span class="textcontent">
+                     leur dit ‧ Madam'Oisille nous a tant roulés en devocion  </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> nous passons l'heu
+                     </span>
+                  |
+                  <span class="textcontent">
+                     re acoutumée de nous retirer pour nous preparer à conter nos noveles. Sa
+                     </span>
+                  |
+                  <span class="textcontent">
+                     parole fut ocasion de faire lever toute la conpagnie. &amp; apres avoir demeuré
+                     </span>
+                  |
+                  <span class="textcontent">
+                     bien peu en leurs chambres, ne fallirent point de se trouver au pré, </span><div class="choice"><span class="textcontent">c</span><span class="textcontent">ō</span><span class="textcontent">m</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">c</span><span class="textcontent">om</span><span class="textcontent">m</span></div>
+                     </div>
+                  </div><span class="textcontent">'ilz
+                     </span>
+                  |
+                  <span class="textcontent">
+                     avoient fait le jour de devant. &amp; quant ilz furent bien à leur ayse, ma dame
+                     </span>
+                  |
+                  <span class="textcontent">
+                     Oisille dit à Saffredent: Encore </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> je soie assurée </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> vous ne direz rien à </span><div class="choice"><span class="textcontent">l'av</span><span class="textcontent">ā</span><span class="textcontent">tage</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">l'av</span><span class="textcontent">an</span><span class="textcontent">tage</span></div>
+                     </div>
+                  </div>
+                  
+                  |
+                  <span class="textcontent">
+                     des fanmes, si esse qu'il faut </span><div class="choice"><span class="textcontent">qz</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> je vous avise de dire la nouvele </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> des arsoir
+                     </span>
+                  |
+                  <span class="textcontent">
+                     vous avez prété. Je proteste ma dame (dit Saffredent) </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> je n'acquerai point
+                     </span>
+                  |
+                  <span class="textcontent">
+                     le deshonneur de medisant pour dire verité: &amp; ne perderai point la grace
+                     </span>
+                  |
+                  <span class="textcontent">
+                     des dames vertueuses pour raconter ce </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> les foles ont fait ‧ car j'ay bien ex
+                     </span>
+                  |
+                  <span class="textcontent">
+                     perimanté </span><div class="choice"><span class="textcontent">qȝ</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">que</span></div>
+                     </div>
+                  </div><span class="textcontent"> c'ét d'étre elongné seulement de leur vue.  &amp; si je l'usse eté </span><div class="choice"><span class="textcontent">aut</span><span class="textcontent">ā</span><span class="textcontent">t</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">aut</span><span class="textcontent">an</span><span class="textcontent">t</span></div>
+                     </div>
+                  </div>
+                  
+                  |
+                  <span class="textcontent">
+                     de leur bonne grace je ne fusse pas à cet'heur'en vie. &amp; en ce disant tourna les
+                     </span>
+                  |
+                  <span class="textcontent">
+                     yeus au contraire de cele qui etoit cause de son bien &amp; de son mal. Mais en regar
+                     </span>
+                  |
+                  <span class="textcontent">
+                     dant Ennasuite, la fit aussi bien rougir comme si ç'ut eté à ele à qui le propoz
+                     </span>
+                  |
+                  <span class="textcontent">
+                     se fut adressé. Si esse qu'il n'en fut point moins antandu du lieu où il desiroit
+                     </span>
+                  |
+                  <span class="textcontent">
+                     etre ouy. Madam'Oisille l'assura qu'il pouvoit dire verité librement aus de
+                     </span>
+                  |
+                  <span class="textcontent">
+                     pans de qui il apartiendroit. A l'heure </span><div class="choice"><span class="textcontent">c</span><span class="textcontent">ō</span><span class="textcontent">mança</span><div class="corr">
+                        <div class="interior"><strong>Expanded abbreviation:</strong> <span class="textcontent">c</span><span class="textcontent">om</span><span class="textcontent">mança</span></div>
+                     </div>
+                  </div><span class="textcontent"> Saffredent, &amp; dit.
+                     </span></div>
+               
+               
+               
+               
+            </div>
+         </div>
+         <div id="notesPanel" class="ui-widget-content ui-resizable panel noDisplay">
+            <div class="panelBanner"><img class="closePanel" title="Close panel" src="vmachine-Dateien/closePanelButton.htm" alt="X (Close panel)"></img> Textual Notes 
+            </div>
+            <div id="noNotesFound" class="noteContent"> Sorry, but there are no notes associated with
+               any currently displayed witness. 
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

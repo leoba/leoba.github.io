@@ -1,0 +1,594 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+   <head>
+      <title>The Digital Heptaméron/L'Heptaméron Numé... -- The Versioning Machine 5.0</title>
+      <meta charset="utf-8"></meta>
+      <link rel="stylesheet" type="text/css" href="../src/js/jquery-ui-1.11.3/jquery-ui.min.css"></link>
+      <link rel="stylesheet" type="text/css" href="../src/vmachine.css"></link><script type="text/javascript" src="../src/js/jquery-1.11.2.min.js"></script><script type="text/javascript" src="../src/js/jquery-ui-1.11.3/jquery-ui.min.js"></script><link rel="stylesheet" type="text/css" href="../src/panzoom/panzoom.css"></link><script type="text/javascript" src="../src/panzoom/jquery.panzoom.min.js"></script><script type="text/javascript">
+       /*NOTES PANEL: To change the VM so
+      that the notes panel page does not appear at the initial load, change the constant
+      INITIAL_DISPLAY_BIB_PANEL from "true" to "false" below */ INITIAL_DISPLAY_NOTES_PANEL =
+         false; /*BIB PANEL: To change the VM so that the
+      bibliographic information page does not appear at the initial load, change the constant
+      INITIAL_DISPLAY_BIB_PANEL from "true" to "false" below */ INITIAL_DISPLAY_BIB_PANEL =
+         true; /**The number of version/witness panels to be
+      displayed initially */ INITIAL_DISPLAY_NUM_VERSIONS = 2; /** CRIT PANEL: Critical information should be encoded as
+      tei:notesStmt/tei:note[@type='critIntro'] in the TEI files --&gt; * To change the VM so that
+      the critical information page does not * appear at the initial load, change the constant
+      INITIAL_DISPLAY_CRIT_PANEL from "true" to "false" */ INITIAL_DISPLAY_CRIT_PANEL =
+         false; /** To change the VM so that line numbers are
+      hidden by default, change the constant INITIAL_DISPLAY_LINENUMBERS from * "true" to "false" */
+      INITIAL_DISPLAY_LINENUMBERS = true; var timelinePoints = new Array();var timelineDurations = new Array();</script><script type="text/javascript" src="../src/vmachine.js"></script></head>
+   <body>
+      <div id="mainBanner">
+         <div id="brandingLogo"><a href="../samples.html"><img id="logo" alt="Powered by the Versioning Machine" src="../vm-images/LogoSilver.png"></img></a></div>
+         <div id="bannerImageContainer"><img id="logo" alt="Powered by the Versioning Machine" src="../vm-images/HeaderBackground.png"></img><div id="headline">
+               <h1>The Digital Heptaméron/L'Heptaméron Numé...</h1>
+            </div>
+            <nav id="mainControls">
+               <ul>
+                  <li><button id="selectVersion" class="topMenuButton dropdownButton">2 Total Versions<img class="noDisplay" src="vmachine-Dateien/menuArrowUp.htm" alt="arrow up"></img><img src="vmachine-Dateien/menuArrowDown.htm" alt="arrow down"></img></button><ul id="versionList" class="dropdown notVisible">
+                        <li data-panelid="g">
+                           <div class="listText">
+                              <div><a href="#" title="g: Gruget (1560) Day Seven">Version g</a></div>
+                              <div><button>OFF</button></div>
+                           </div>
+                        </li>
+                        <li data-panelid="b">
+                           <div class="listText">
+                              <div><a href="#" title="b: BnF ms fr 1520">Version b</a></div>
+                              <div><button>OFF</button></div>
+                           </div>
+                        </li>
+                     </ul>
+                  </li>
+                  <li data-panelid="bibPanel" title="Clicking this button triggers the bibliographic panel to appear&#xA;            or disappear."><button class="topMenuButton">Bibliographic panel</button></li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+      <p>
+         
+         Merveilleuse pertinacité d'amour effrontée d'une Bourgui-
+         
+         gnonne envers un chanoine d'Authun.
+         
+         NOUVELLE PREMIERE.
+         _AUPRES de la ville d'Authun, y avoit une
+         
+         fort belle femme, grande, blanche, &amp; d'
+         au-
+         
+         tāt
+         au-
+         
+         tant
+         belle façon de visage, que j'en aye point
+         
+         veu. Elle avoit espousé un honneste hom-
+         
+         me, qui sembloit estre plus jeune qu'elle,
+         
+         lequel l'aimoit, &amp; la traictoit tant bien,
+         
+         qu'elle avoit cause de s'en contenter. Peu
+         de temps apres qu'ils furent mariez, la mena en la ville d'Au-
+         
+         thun, pour quelques
+         affaires. Et durant que le mary pourchas-
+         
+         DE LA ROYNE DE NAVARRE.
+         soit la justice, sa femme alloit à l'Eglise prier Dieu pour luy. Et
+         
+         tant frequenta le lieu sainct, qu'un chanoine fort riche, fut a-
+         
+         moureux d'elle: &amp; la poursuivit si fort, qu'en fin la pauvre
+         
+         malheureuse luy accorda: dont le mary n'avoit nul soupçon, &amp;
+         
+         pensoit plus à garder son bien, que sa femme. Et quand ce vint
+         
+         au departir, &amp; qu'il failloit retourner en la maison, qui estoit
+         
+         loing de la ville de sept grandes lieuës, ce ne fut pas sans un
+         
+         grand regret: mais le chanoine luy promist de l'aller souvent
+         
+         visiter: ce qu'il feit, feignant aller en quelque voyage, où son
+         
+         chemin s'adressoit tousjours par la maison de cest homme, qui
+         
+         ne fut pas si sot, qu'il ne s'en apperceust, &amp; y donna si bon ordre,
+         
+         que, quand le chanoine y venoit, il n'y trouvoit plus sa femme,
+         
+         mais la faisoit si bien cacher, qu'il ne pouvoit parler à elle. La
+         
+         femme, cognoissant la jalousie de son mary, ne feit semblant
+         
+         qu'il luy despleust: toutesfois si pensa elle, qu'elle y donneroit
+         
+         bien ordre: car elle estimoit un enfer, de perdre la vision de son
+         
+         Dieu. Un jour que son mary estoit hors de sa maison, empescha
+         
+         si bien les chambrieres &amp; varlets, qu'elle y demeura seule: 
+         in-
+         
+         continēt
+         in-
+         
+         continent
+         print ce qu'il luy estoit necessaire, &amp; sans nulle compa-
+         
+         gnie, que de la folle amour, s'en alla de son pied à Authun, où
+         
+         elle n'arriva pas si tard, qu'elle ne fust 
+         biē
+         bien
+         recogneuë de son cha-
+         
+         noine, qui la tint enfermée &amp; cachée plus d'un an, quelques mo-
+         
+         nitions &amp; excommunications qu'en feist jetter son mary. Le-
+         
+         quel, ne trouvant meilleur remede, en feit la plaincte à l'Eves-
+         
+         que, qui avoit un Archediacre, 
+         autāt
+         autant
+         homme de bien, qu'il y en
+         
+         eust en France. Et luy mesmes chercha si diligemment tou-
+         
+         tes les maisons des chanoines, qu'il trouva celle, que l'on te-
+         
+         noit perduë, laquelle il meit en prison, &amp; condamna le chanoi-
+         
+         ne en grosse penitence. Le mary, sçachant que sa femme estoit
+         
+         retrouvée, par la monition du bon Archediacre, &amp; de plusieurs
+         
+         gens de bien, fut content de la 
+         reprēdre
+         reprendre
+         , avec les 
+         sermēs
+         sermens
+         , qu'el-
+         
+         le luy feit, de vivre le temps advenir en femme de bien. Ce que
+         
+         le bon homme creut volontiers, pour la grande amour qu'il
+         
+         luy portoit, &amp; la mena en sa maison, la traictant aussi honneste-
+         
+         ment qu'au paravant, sinon qu'il luy bailla deux vieilles cham-
+         
+         brieres, qui jamais ne la laissoient seule, que l'une des deux ne
+         
+         fust avec elle. Mais quelque bonne chere, que luy feist son ma-
+         
+         ry, la meschante amour, qu'elle portoit au chanoine, luy faisoit Z iii
+         
+         LA VII. JOURNÉE DES NOUVELLES
+         estimer tout son repos tourment. Et combien qu'elle fust tres-
+         
+         belle femme, &amp; luy homme de bonne complexion, fort &amp; puis-
+         
+         sant, si est-ce que jamais elle n'eut enfans de luy: car son cueur
+         
+         estoit tousjours à sept lieuës de son corps. Ce qu'elle diffimu-
+         
+         loit si bien, qu'il sembloit à son mary, qu'elle eust oublié tout le
+         
+         passé, comme il avoit faict de son costé. Mais la malice d'elle
+         
+         n'avoit pas ceste opinion: car à l'heure qu'elle veid son mary
+         
+         mieux l'aimant, &amp; moins la soupçonnant, va feindre d'estre
+         
+         malade, &amp; continua si bien ceste feincte, que son pauvre mary
+         
+         estoit en merveilleuse peine, ny espargnant bien, ny chose qu'il
+         
+         eust pour la secourir. Toutesfois elle joüa si bien son roole, que
+         
+         luy &amp; tous ceux de la maison la penserent malade jusques à
+         
+         l'extremité, &amp; que peu à peu elle s'affoiblissoit: &amp; voyant que
+         
+         son mary en estoit autant marry, qu'il en devoit estre joyeux,
+         
+         luy pria qu'il luy pleust l'auctoriser de faire son testament. Ce
+         
+         qu'il feit volontiers en plorant. Et elle, ayant puissance de te-
+         
+         ster, combien qu'elle n'eust enfans, donna à son mary ce, qu'elle
+         
+         luy pouvoit donner, luy requerant pardon des faultes qu'elle
+         
+         luy avoit faictes. Apres envoya querir le curé, se confessa, re-
+         
+         ceut le sainct sacrement de l'autel tant devotement, que cha-
+         
+         cun ploroit de veoir une si glorieuse fin. Et quand ce vint le
+         
+         soir, pria son mary de luy faire porter l'extreme 
+         unctiō
+         unction
+         , &amp; qu'el-
+         
+         le s'affoiblissoit tant, qu'elle avoit peur de ne la pouvoir re-
+         
+         cevoir vive. Son mary luy feit apporter en grande diligence, &amp;
+         
+         elle, qui la recevoit en grande humilité, incitoit chacun à la
+         
+         louër. Quand elle eut faict tous ces beaux mysteres, elle dist à
+         
+         son mary, que, puis que Dieu luy avoit faict tant de grace d'a-
+         
+         voir prins tout ce que l'Eglise commande, elle sentoit sa con-
+         
+         science en si 
+         grāde
+         grande
+         paix, qu'il luy prenoit envie de se reposer un
+         
+         petit: priant son mary de faire le semblable, &amp; qu'il en avoit bien
+         
+         besoing pour avoir tant ploré, &amp; veillé avec elle. Quand son
+         
+         mary fut endormy, &amp; tous les varlets avecques luy, les deux
+         
+         vieilles, qui en sa santé l'avoient si longuement gardée, ne se
+         
+         doutans plus de la perdre, sinon par mort, se vont tresbien cou-
+         
+         cher à leur aise. Et quand elle les ouyt dormir, &amp; ronfler bien
+         
+         hault, se leva en sa chemise, &amp; saillit hors de sa chambre, escou-
+         
+         tant si personne de leans faisoit point de bruit. Mais quand elle
+         
+         fut asseurée de son baston, sceut tresbien saillir par un petit huys
+         
+         DE LA ROYNE DE NAVARRE.
+         huys du jardin, qui ne fermoit point, &amp; tant que la nuict dura,
+         
+         toute en chemise, &amp; nuds pieds, feit son voyage à Authun, de-
+         
+         vers le sainct, qui l'avoit gardée de mourir. Mais, pource que le
+         
+         chemin estoit long, n'y peut aller tout d'une traicte, que le jour
+         
+         ne la surprinst. A l'heure regarda par tout le chemin, &amp; advisa
+         
+         deux chevaucheurs, qui couroient bien fort: &amp; se doutant, que
+         
+         ce fust son mary, qui la cherchast, se cacha tout le corps dans un
+         
+         maraiz, &amp; la teste entre les joncs: &amp; son mary, passant par au-
+         
+         pres d'elle, disoit à un sien serviteur, comme tout desesperé: O
+         
+         la meschante! qui eust pensé, que, sous le manteau des saincts
+         
+         sacrements de l'Eglise, on eust peu couvrir un si vilain &amp; abo-
+         
+         minable cas? Le serviteur luy respondit: Puis que Judas, pre-
+         
+         nant un tel morceau, ne craignit à trahir son maistre, ne trou-
+         
+         vez point estrange la trahison d'une femme. En ce disant, pas-
+         
+         sa outre le mary, &amp; la femme demeura plus joyeuse entre les
+         
+         joncs, de l'avoir trompé, qu'elle n'estoit en sa maison, dans un
+         
+         bon lict en servitude. Le pauvre mary chercha par toute la vil-
+         
+         le d'Authun, mais il sceut certainement, qu'elle n'y estoit point
+         
+         entrée. Parquoy s'en retourna sur ses brisées, &amp; ne faisoit, que
+         
+         se plaindre d'elle sur le chemin, &amp; de sa grande perte: ne la me-
+         
+         naçant point moins, quand au reste, que de la mort, s'il la trou-
+         
+         voit: dont elle n'avoit peur en son esprit, non plus qu'elle sen-
+         
+         toit de froid en son corps: combien que la saison &amp; le lieu me-
+         
+         ritoient de la faire repentir de son damnable voyage. Et qui ne
+         
+         sçauroit, comme le feu d'enfer eschauffe ceux, qui en sont rem-
+         
+         pliz, l'on devroit estimer à merveilles, comme ceste pauvre fem-
+         
+         me, saillant d'un lict bien chauld, peut demeurer tout un jour
+         
+         en si extreme froidure. Si ne perdit elle point le cueur, ny l'al-
+         
+         ler: car incontinent que la nuict fut venuë, reprint son chemin.
+         
+         Et ainsi que l'on vouloit fermer la porte d'Authun, arriva ceste
+         
+         pauvre pelerine, &amp; ne faillit d'aller tout droict ou demeuroit
+         
+         son corps sainct: qui fut tant emerveillé de sa venuë, qu'à pei-
+         
+         ne pouvoit il croire, que ce fust elle. Mais quand il l'eut bien re-
+         
+         gardée &amp; visitée de tous costez, trouva qu'elle avoit oz, &amp; chair:
+         
+         ce qu'un esprit n'a point. Et ainsi s'asseura, que ce n'estoit fan-
+         
+         tosme, &amp; dès l'heure furent si bien d'accord, qu'elle demeura
+         
+         quatorze ou quinze ans avec luy. Et si quelque temps elle fut
+         
+         cachée, à la fin perdit toute crainte, &amp; qui pis est, print
+         une tel-
+         
+         LA VII. JOURNÉE DES NOUVELLES
+         le gloire d'avoir un tel amy, qu'elle se mettoit à l'Eglise, devant
+         
+         la plus-part des plus femmes de bien de la ville, tant femmes
+         
+         d'officiers, que autres, &amp; eut des enfans du chanoine, &amp; entre
+         
+         autres une fille, qui fut mariée à un riche marchand: &amp; si gor-
+         
+         giase à ses nopces, que toutes les femmes de la ville en murmu-
+         
+         roient tres-fort, mais n'avoient pas la puissance d'y mettre or-
+         
+         dre. Or advint qu'en ce temps là, la Royne Claude, femme du
+         
+         Roy François, passa par la ville d'Authun, ayant en sa compa-
+         
+         gnie, ma dame la Regente, mere du Roy, &amp; la Duchesse d'A-
+         
+         lençon sa fille. Vint lors une femme de chambre, nommée Per-
+         
+         rette, qui trouva ladicte Duchesse, &amp; lui dist: Ma dame, je vous
+         
+         supplie escoutez moy, &amp; vous ferez oeuvre aussi ou plus gran-
+         
+         de, que d'aller ouyr tout le service du jour. La Duchesse s'arreta
+         
+         volontiers, sçachant que d'elle ne pouvoit venir que bon con-
+         
+         seil. Perrette luy alla compter incontinent, comme elle avoit
+         
+         prins une petite fille, pour luy aider à savonner le linge de la
+         
+         Royne: &amp; en luy demandant des nouvelles de la ville, luy com-
+         
+         pta la peine, qu'avoient les femmes de bien, de veoir ainsi aller
+         
+         devant elles la femme de ce chanoine, laquelle luy compta une
+         
+         partie de sa vie. Tout soudain s'en alla ladicte Duchesse à la
+         
+         Royne, &amp; à ma dame la Regente, &amp; leur racompa ceste histoi-
+         
+         re: qui, sans autre forme de proces, envoyerent querir ceste
+         
+         pauvre malheureuse, laquelle ne se cachoit point: car elle avoit
+         
+         changé sa honte en gloire, d'estre dame de la maison d'un si ri-
+         
+         che homme: &amp; sans estre estonnée, ne honteuse, se vint presen-
+         
+         ter devant lesdictes dames: qui avoient si grand honte de sa
+         
+         hardiesse, que soudain elles ne luy sceurent que dire. Mais apres
+         ma dame la Regente luy feit de telles remonstrances, qu'elles
+         
+         deussent avoir faict plorer une femme de bon entendement.
+         
+         Ce que ne feit ceste pauvre femme: mais d'une audace tres gran-
+         
+         de leur dist: Je vous supplie, mes dames, que vous vouliez gar-
+         
+         der, que l'on ne touche point à mon honneur. Car, Dieu mercy,
+         
+         j'ay vescu avec monsieur le chanoine, si bien &amp; vertueusement,
+         
+         qu'il n'y a personne vivant, qui m'en sceust reprendre. Et si ne
+         
+         fault point, que l'on pense, que je vive 
+         cōtre
+         contre
+         la volonté de Dieu:
+         
+         car il y a trois ans, qu'il ne me fut rien, &amp; vivons aussi chaste-
+         
+         ment, &amp; en aussi grande amour, que deux beaux petits anges,
+         
+         sans que jamais entre nous deux il y ait eu parole, ne volonté au
+         
+         DE LA ROYNE DE NAVARRE.
+         au contraire, &amp; qui nous separera, fera grand péché: car le bon
+         
+         homme, qui a bien pres de quatre vingts ans, ne vivra plus gue-
+         
+         res sans moy, qui en ay quarantecinq. Vous pouvez penser com-
+         
+         me ces dames se 
+         peurēt
+         peurent
+         tenir, &amp; les remonstrances, que chacune
+         
+         luy feit, voyant l'obstination, qui à l'heure n'estoit amollie, par
+         
+         paroles, que l'on luy dist, pour aage qu'elle eust, ne pour l'hono-
+         
+         rable compagnie. Et pour l'humilier plus fort, 
+         envoyerēt
+         envoyerent
+         querir
+         
+         le bon Archediacre d'Authun, qui la 
+         cōdamna
+         condamna
+         d'estre en prison
+         
+         un an, au pain &amp; à l'eau. Et les dames 
+         envoyerēt
+         envoyeent
+         querir son ma-
+         
+         ry, lequel, pour leur bon enhortement, fut 
+         cōtent
+         content
+         la reprendre,
+         
+         apres qu'elle auroit faict sa penitence. Mais se voyant prisonnie-
+         
+         re, &amp; le chanoine deliberé de jamais plus la reprendre, 
+         remerciāt
+         remerciant
+         
+         
+         les dames de ce qu'elles luy avoient jecté un diable hors de des-
+         
+         sus les espaules, eut une si grande &amp; parfaicte 
+         contrition
+         contition
+         , que
+         
+         son mary, au lieu d'attendre le bout de l'année à la reprendre
+         
+         n'attendit pas quinze jours, qu'il ne la vinst demander à l'Arche-
+         
+         diacre, &amp; depuis ont vescu en bonne paix &amp; amitié.
+         Voilà, mes dames, comme les chaisnes sainct Pierre sont con-
+         
+         verties, par les mauvais ministres, en celles de Sathan, &amp; si fortes
+         
+         à rompre, que les sacrements, qui chassent les diables du corps,
+         
+         sont à ceux cy, les moyens de les faire plus longuement demeu-
+         
+         rer en leur consciences. Car les meilleures choses sont celles,
+         
+         quand on en abuse, dont l'on faict plus de maux. Vrayement,
+         
+         dist Oisille, ceste femme estoit bien malheureuse: mais aussi
+         
+         fut elle bien punie, de venir devant tels juges, comme les da-
+         
+         mes que vous avez nommées: car le regard seul de ma dame la
+         
+         Regente, estoit de telle vertu, qu'il n'y avoit si femme de bien,
+         
+         qui ne craignit de se trouver 
+         devāt
+         devant
+         ses yeux, &amp; qui ne s'estimast
+         
+         indigne de sa veuë. Car la regardant doulcement, s'estimoit
+         
+         meriter grand honneur, sçachant, que femmes, autres que ver-
+         
+         tueuses, ne pouvoient ceste dame regarder de bon cueur. Si est
+         
+         il meilleur, dist Hircan, que l'on ait plus de crainte du sainct sa-
+         
+         crement (lequel n'estant receu en foy, &amp; charité, est en damna-
+         
+         tion eternelle) que des yeux d'une femme. Je vous promets,
+         
+         dist Parlamente, que ceux, qui ne sont point inspirez, craignent
+         
+         plus les puissances temporelles, que les spirituelles. Encores je
+         
+         croy, que ceste pauvre creature se chastia plus, par la prison, &amp;
+         
+         pour l'opinion de ne veoir plus son chanoine, qu'elle ne feit Aa
+         
+         LA VII. JOURNÉE DES NOUVELLES
+         pour 
+         remonstrāce
+         remonstrance
+         , que l'on luy eust sceu faire. Mais, dist Simon-
+         
+         tault, vous avez oublié la principale chose, qui la feit retourner
+         
+         à son mary, c'est, que le chanoine avoit quatre vingts ans, &amp; son
+         
+         mary estoit plus jeune qu'elle. Ainsi gagna ceste bonne dame
+         
+         en tous ses marchez. Mais si le chanoine eust esté jeune, elle ne
+         
+         l'eust point voulu abandonner. Les enseignemens des dames
+         
+         n'eussent pas eu plus de valeur, que les sacremens, qu'elle a-
+         
+         voit prins. Encores me semble-il, dist Nomerfide, qu'elle faisoit
+         
+         bien, de ne confesser point son peché si aisément: car ceste offen-
+         
+         se là, se doit dire à Dieu seulement,  &amp; la renyer fort &amp; ferme de-
+         
+         vant les hommes. Car encores qu'il fust vray, à force de mentir
+         
+         &amp; jurer, on 
+         engēdre
+         engendre
+         quelque doute à la verité. Si est-ce, dist Lon-
+         
+         garine, qu'un peché à grand peine peut il estre si secret, qu'il ne
+         
+         soit revelé, sinon quand Dieu le couvre en ceux, qui, pour l'a-
+         
+         mour de luy, en ont vraye repentance. Et que diriez vous, dist
+         
+         Hircan, de celles, qui n'ont pas plus tost faict une follie, qu'elles
+         
+         ne la racomptent à quelqu'une? Je le trouve bien estrange, dist
+         
+         Longarine, &amp; est signe, que le peché ne leur desplaist pas. Et, 
+         cō-
+         
+         me
+         com-
+         
+         me
+         je vous ay dict, celuy qui n'est couvert par la grace de Dieu,
+         
+         ne se sçauroit nyer devant les 
+         hōmes
+         hommes
+         , &amp; y en a maintes, qui 
+         pren-
+         
+         nēt
+         pren-
+         
+         nent
+         plaisir à parler de tels propos: &amp; font gloire de publier leurs
+         
+         vices: &amp; autres, qui en se coupant s'accusent. Si est-ce coupper
+         
+         bien 
+         lourdemēt
+         lourdement
+         , dist Saffredent: mais je vous prie, si vous en sça-
+         
+         vez quelqu'une, que je vous 
+         dōne
+         donne
+         ma place, &amp; que vous la nous
+         
+         disiez. Or escoutez donc, dist Longarine.
+         
+         
+      </p>
+   </body>
+</html>

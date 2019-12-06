@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Digital Heptaméron/L'Heptaméron Numérique</title>
+            <title type="sub">Combined edition</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+<sourceDesc>
+             <biblStruct>
+                 <monogr>
+                     <title>L'Heptaméron</title>
+                     <author>Marguerite de Navarre</author>
+                     <editor>Claude Gruget</editor>
+                     <imprint>
+                         <pubPlace>Paris</pubPlace>
+                         <publisher><persName role="printer">Jean Caveiller</persName></publisher>
+                         <date when="1560">1560</date>
+                     </imprint>
+                 </monogr>
+             </biblStruct>
+             <msDesc>
+               <msIdentifier>
+                  <settlement>Philadelphia</settlement>
+                  <repository>University of Pennsylvania Library</repository>
+                  <idno type="shelfmark">FC5 M3379 558h 1560</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="Prologue, Day 1" corresp="#D1">
+                     <locus from="1r" to="6v">ff. 1r-6v</locus>
+                     <title>PROLOGUE.</title>
+                  </msItem>
+                  <msItem n="Novella 1" corresp="#N1">
+                     <locus from="7r" to="10v">ff. 7r-10v</locus>
+                     <title>PREMIERE NOUVELLE.</title>
+                  </msItem>
+                  <msItem n="Novella 2" corresp="#N2">
+                     <locus from="10v" to="12r">ff. 10v-12r</locus>
+                     <title>NOUVELLE DEUXIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 3" corresp="#N3">
+                     <locus from="12r" to="15r">ff. 12r-15r</locus>
+                     <title>NOUVELLE TROISIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 4" corresp="#N4">
+                     <locus from="15r" to="18r">ff. 15r-18r</locus>
+                     <title>QUATRIESME NOUVELLE.</title>
+                  </msItem>
+                  <msItem n="Novella 5" corresp="#N5">
+                     <locus from="18r" to="19v">ff. 18r-19v</locus>
+                     <title>NOUVELLE CINQIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 6" corresp="#N6">
+                     <locus from="20r" to="21r">ff. 20r-21r</locus>
+                     <title>NOUVELLE SIXIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 7" corresp="#N7">
+                     <locus from="21r" to="22r">ff. 21r-22r</locus>
+                     <title>NOUVELLE SEPTIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 8" corresp="#N8">
+                      <locus from="22r" to="25r">ff. 22r-25r</locus>
+                     <title>NOUVELLE HUICTIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 9" corresp="#N9">
+                      <locus from="25r" to="27v">ff. 25r-27v</locus>
+                     <title>NOUVELLE NEUFIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 10" corresp="#N10">
+                      <locus from="27v" to="42r">ff. 27v-42r</locus>
+                     <title>NOUVELLE DIXIESME.</title>
+                  </msItem>
+                  <msItem n="Prologue, Day 2" corresp="#D2">
+                      <locus from="42v" to="43r">ff. 42v-43r</locus>
+                     <title>SECONDE JOURNÉE DES NOUVEL-
+                  <lb/>
+                  LES DE LA ROYNE DE NAVARRE.</title>
+                  </msItem>
+                  <msItem n="Gruget, épave 1" corresp="#GE1">
+                      <locus from="43r" to="44v">ff. 43r-44v</locus>
+                     <title>NOUVELLE PREMIERE.</title>
+                  </msItem>
+                  <msItem n="Novella 12" corresp="#N12">
+                      <locus from="44v" to="48r">ff. 44v-48r</locus>
+                     <title>NOUVELLE DEUXIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 13" corresp="#N13">
+                      <locus from="48r" to="54v">ff. 48r-54v</locus>
+                     <title>NOUVELLE TROISIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 14" corresp="#N14">
+                      <locus from="54v" to="57v">ff. 54v-57v</locus>
+                     <title>NOUVELLE QUATRIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 15" corresp="#N15">
+                      <locus from="57v" to="63v">ff. 57v-63v</locus>
+                     <title>NOUVELLE CINQIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 16" corresp="#N16">
+                      <locus from="63v" to="66r">ff. 63v-66r</locus>
+                     <title>NOUVELLE SIXIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 17" corresp="#N17">
+                      <locus from="66r" to="67v">ff. 66r-67v</locus>
+                     <title>NOUVELLE SEPTIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 18" corresp="#N18">
+                      <locus from="67v" to="70r">ff. 67v-70r</locus>
+                     <title>NOUVELLE HUICTIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 19" corresp="#N19">
+                      <locus from="70v" to="75v">ff. 70v-75v</locus>
+                     <title>NOUVELLE NEUFIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 20" corresp="#N20">
+                      <locus from="75v" to="77v">ff. 75v-77v</locus>
+                     <title>NOUVELLE DIXIESME.</title>
+                  </msItem>
+                  <msItem n="Prologue, Day 3" corresp="#D3">
+                      <locus from="78r" to="78v">ff. 78r-78v</locus>
+                     <title>TROISIESME JOURNÉE DES NOU-
+                  <lb/>
+                  VELLES DE LA ROYNE DE NAVARRE.</title>
+                  </msItem>
+                  <msItem n="Novella 21" corresp="#N21">
+                      <locus from="78v" to="87r">ff. 78v-87r</locus>
+                     <title>NOUVELLE PREMIERE.</title>
+                  </msItem>
+                  <msItem n="Novella 22" corresp="#N22">
+                      <locus from="87r" to="92r">ff. 87r-92r</locus>
+                     <title>NOUVELLE DEUXIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 23" corresp="#N23">
+                      <locus from="92r" to="95r">ff. 92r-95r</locus>
+                     <title>NOUVELLE TROISIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 24" corresp="#N24">
+                      <locus from="95r" to="100r">ff. 95r-100r</locus>
+                     <title>NOUVELLE QUATRIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 25" corresp="#N25">
+                      <locus from="100r" to="102v">ff. 100r-102v</locus>
+                     <title>NOUVELLE CINQIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 26" corresp="#N26">
+                      <locus from="102v" to="109r">ff. 102v-109r</locus>
+                     <title>NOUVELLE SIXIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 27" corresp="#N27">
+                      <locus from="109r" to="109v">ff. 109r-109v</locus>
+                     <title>NOUVELLE SEPTIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 28" corresp="#N28">
+                      <locus from="110r" to="111r">ff. 110r-111r</locus>
+                     <title>NOUVELLE HUICTIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 29" corresp="#N29">
+                      <locus from="111r" to="112r">ff. 111r-112r</locus>
+                     <title>NOUVELLE NEUFIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 30" corresp="#N30">
+                      <locus from="112r" to="115r">ff. 112r-115r</locus>
+                     <title>NOUVELLE DIXIESME.</title>
+                  </msItem>
+                  <msItem n="Prologue, Day 4" corresp="#D4">
+                      <locus from="115v" to="116r">ff. 115v-116r</locus>
+                     <title>QUATRIESME JOURNÉE DES NOUVELLES DE LA ROYNE DE NAVARRE.</title>
+                  </msItem>
+                  <msItem n="Novella 31" corresp="#N31">
+                      <locus from="116r" to="118r">ff. 116r-118r</locus>
+                     <title>NOUVELLE PREMIERE.</title>
+                  </msItem>
+                  <msItem n="Novella 32" corresp="#N32">
+                      <locus from="118v" to="120v">ff. 118v-120v</locus>
+                     <title>NOUVELLE DEUXIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 33" corresp="#N33">
+                      <locus from="120v" to="122v">ff. 120v-122v</locus>
+                     <title>NOUVELLE TROISIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 34" corresp="#N34">
+                      <locus from="122v" to="124v">ff. 122v-124v</locus>
+                     <title>NOUVELLE QUATRIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 35" corresp="#N35">
+                      <locus from="124v" to="127v">ff. 124v-127v</locus>
+                     <title>NOUVELLE CINQIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 36" corresp="#N36">
+                      <locus from="127v" to="130r">ff. 127v-130r</locus>
+                     <title>NOUVELLE SIXIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 37" corresp="#N37">
+                      <locus from="130r" to="131v">ff. 130r-131v</locus>
+                     <title>NOUVELLE SEPTIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 38" corresp="#N38">
+                      <locus from="131v" to="132v">ff. 131v-132v</locus>
+                     <title>NOUVELLE HUICTIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 39" corresp="#N39">
+                      <locus from="133r" to="133v">ff. 133r-133v</locus>
+                     <title>NOUVELLE NEUFIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 40" corresp="#N40">
+                      <locus from="134r" to="137r">ff. 134r-137r</locus>
+                     <title>NOUVELLE DIXIESME.</title>
+                  </msItem>
+                  <msItem n="Prologue, Day 5" corresp="#D5">
+                      <locus from="137v" to="138r">ff. 137v-138r</locus>
+                     <title>CINQUIESME JOURNÉE DES NOUVELLES DE LA ROYNE DE NAVARRE.</title>
+                  </msItem>
+                  <msItem n="Novella 41" corresp="#N41">
+                      <locus from="138r" to="139v">ff. 138r-139v</locus>
+                     <title>NOUVELLE PREMIERE.</title>
+                  </msItem>
+                  <msItem n="Novella 42" corresp="#N42">
+                      <locus from="139v" to="144r">ff. 139v-144r</locus>
+                     <title>NOUVELLE DEUXIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 43" corresp="#N43">
+                      <locus from="144v" to="147r">ff. 144v-147r</locus>
+                     <title>NOUVELLE TROISIESME.</title>
+                  </msItem>
+                  <msItem n="Gruget, épave 2" corresp="#GE2">
+                      <locus from="147r" to="150r">ff. 147r-150r</locus>
+                     <title>NOUVELLE QUATRIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 45" corresp="#N45">
+                      <locus from="150v" to="152r">ff. 150v-152r</locus>
+                     <title>NOUVELLE CINQIESME.</title>
+                  </msItem>
+                  <msItem n="Gruget, épave 3" corresp="#GE3">
+                      <locus from="152r" to="153v">ff. 152r-153v</locus>
+                     <title>NOUVELLE SIXIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 47" corresp="#N47">
+                      <locus from="153v" to="155v">ff. 153v-155v</locus>
+                     <title>NOUVELLE SEPTIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 48" corresp="#N48">
+                      <locus from="155v" to="156v">ff. 155v-156v</locus>
+                     <title>NOUVELLE HUICTIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 49" corresp="#N49">
+                      <locus from="156v" to="159v">ff. 156v-159v</locus>
+                     <title>NOUVELLE NEUFIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 50" corresp="#N50">
+                      <locus from="159v" to="161r">ff. 159v-161r</locus>
+                     <title>NOUVELLE DIXIESME.</title>
+                  </msItem>
+                  <msItem n="Prologue, Day 6" corresp="#D6">
+                      <locus from="161v" to="162r">ff. 161v-162r</locus>
+                     <title>SIXIESME JOURNÉE DES NOUVELLES DE LA ROYNE DE NAVARRE.</title>
+                  </msItem>
+                  <msItem n="Novella 51" corresp="#N51">
+                      <locus from="162r" to="16[4]r">ff. 162r-16[4]r</locus>
+                     <title>NOUVELLE PREMIERE.</title>
+                  </msItem>
+                  <msItem n="Novella 52" corresp="#N52">
+                      <locus from="16[4]r" to="165v">ff. 16[4]r-165v</locus>
+                     <title>NOUVELLE DEUXIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 53" corresp="#N53">
+                      <locus from="165v" to="168v">ff. 165v-168v</locus>
+                     <title>NOUVELLE TROISIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 54" corresp="#N54">
+                      <locus from="168v" to="169v">ff. 168v-169v</locus>
+                     <title>NOUVELLE QUATRIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 55" corresp="#N55">
+                      <locus from="169v" to="171r">ff. 169v-171r</locus>
+                     <title>NOUVELLE CINQIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 56" corresp="#N56">
+                      <locus from="171r" to="173v">ff. 171r-173v</locus>
+                     <title>NOUVELLE SIXIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 57" corresp="#N57">
+                      <locus from="173v" to="175r">ff. 173v-175r</locus>
+                     <title>NOUVELLE SEPTIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 58" corresp="#N58">
+                      <locus from="175r" to="176v">ff. 175r-176v</locus>
+                     <title>NOUVELLE HUICTIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 59" corresp="#N59">
+                      <locus from="177r" to="179v">ff. 177r-179v</locus>
+                     <title>NOUVELLE NEUFIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 60" corresp="#N60">
+                      <locus from="179v" to="181v">ff. 179v-181v</locus>
+                     <title>NOUVELLE DIXIESME.</title>
+                  </msItem>
+                  <msItem n="Prologue, Day 7" corresp="#D7">
+                      <locus from="182r" to="182v">ff. 182r-182v</locus>
+                     <title>SEPTIESME JOURNÉE DES NOUVELLE DE LA ROYNE DE NAVARRE.</title>
+                  </msItem>
+                  <msItem n="Novella 61" corresp="#N61">
+                      <locus from="182v" to="185v">ff. 182v-185v</locus>
+                     <title>NOUVELLE PREMIERE.</title>
+                  </msItem>
+                  <msItem n="Novella 62" corresp="#N62">
+                      <locus from="185v" to="187r">ff. 185v-187r</locus>
+                     <title>NOUVELLE DEUXIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 63" corresp="#N63">
+                      <locus from="187r" to="188v">ff. 187r-188v</locus>
+                     <title>NOUVELLE TROISIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 64" corresp="#N64">
+                      <locus from="188v" to="191r">ff. 188v-191r</locus>
+                     <title>NOUVELLE QUATRIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 65" corresp="#N65">
+                      <locus from="191r" to="192r">ff. 191r-192r</locus>
+                     <title>NOUVELLE CINQIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 66" corresp="#N66">
+                      <locus from="192r" to="195r">ff. 192r-195r</locus>
+                     <title>NOUVELLE SIXIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 67" corresp="#N67">
+                      <locus from="195r" to="196v">ff. 195r-196v</locus>
+                     <title>NOUVELLE SEPTIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 68" corresp="#N68">
+                      <locus from="196v" to="197v">ff. 196v-197v</locus>
+                     <title>NOUVELLE HUICTIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 69" corresp="#N69">
+                      <locus from="197v" to="199r">ff. 197v-199r</locus>
+                     <title>NOUVELLE NEUFIESME.</title>
+                  </msItem>
+                  <msItem n="Novella 70" corresp="#N70">
+                      <locus from="199r" to="208v">ff. 199r-208v</locus>
+                     <title>NOUVELLE DIXIESME.</title>
+                  </msItem>
+                  <msItem n="Prologue, Day 8" corresp="#D8">
+                      <locus from="209r" to="209v">ff. 209r-209v</locus>
+                     <title>HUICTIESME JOURNÉE DES NOUVELLES DE LA ROYNE DE NAVARRE.</title>
+                  </msItem>
+                  <msItem n="Novella 71" corresp="#N71">
+                      <locus from="209v" to="210v">ff. 209v-210v</locus>
+                     <title>NOUVELLE PREMIERE.</title>
+                  </msItem>
+                  <msItem n="Novella 72" corresp="#N72">
+                      <locus from="210v" to="212v">ff. 210v-212v</locus>
+                     <title>NOUVELLE DEUXIESME.</title>
+                  </msItem>
+                   <msItem n="Jean Vezou sonnet">
+                       <locus from="212v" to="212v">f. 212v</locus>
+                       <incipit>Timon Athenien, grand ennemy de l'homme</incipit>
+                   </msItem>
+                   <msItem n="Privilege">
+                       <locus from="[213r]" to="[213]v">ff. [213r]-[213v]</locus>
+                       <title>Privilege du Roy.</title>
+                   </msItem>
+                   <msItem n="Colophon">
+                       <locus from="[214r]" to="[214]r">f. [214]r</locus>
+                       <colophon>Imprimé à Paris, par Benoist Prevost, demeurant en la rue Frementel, pres le cloz Bruneau, à 
+                       l'enseigne de l'Estoille d'or. 1560.</colophon>
+                   </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                            <material>Paper.</material>
+                            <watermark>Closest equivalents in Briquet are 8002-8025 (most likely Lyon or Valence).</watermark>
+                            
+                        </support>
+                         <collation>
+                             <p>[4] ff., 210 ff. numbered by printer on recto side of leaf 1-212 (164 misnumbered as 16, 193-94
+                                 skipped in numbering, though text is continuous), [2] ff.</p>
+                             <dimensions>
+                                 <dim type="format">4º</dim>
+                                 <dim type="height">210 cm</dim>
+                                 <dim type="width">140 mm</dim>
+                                 <dim type="depth">17 mm</dim>
+                             </dimensions>
+                             <signatures>ā4 a-z4 A-Z4 Aa-Gg4</signatures>
+                             <catchwords>Horizontal catchwords at the bottom of the verso of each leaf.</catchwords>
+                         </collation>
+                         <condition>
+                             <p>Text is in good condition, with minor foxing.</p>
+                         </condition>                       
+                     </supportDesc>
+                      <layoutDesc>
+                          <layout ruledLines="38" columns="1">
+                              </layout> 
+                          </layoutDesc>
+                      </objectDesc>
+                   <bindingDesc>
+                       <binding>
+                           <p>As per <ref target="https://franklin.library.upenn.edu/catalog/FRANKLIN_9958144503503681">Franklin
+                               catalogue entry</ref>: Culture Class Collection copy bound in full green morocco; boards gold-tooled
+                               with a triple-fillet border, inner triple fillet panel, with an arabesque lozenge as centerpiece and
+                               four arabesque corner ornaments; five raised bands on spine gold-tooled with single fillet; four spine
+                               panels gold-tooled with arabesque tools and floral center pieces; brief title gold-stamped in the
+                               second panel; author gold-stamped in the third panel; "Paris, 1560" gold-stamped at foot of spine;
+                               cover edges ruled with gold-tooled double fillet; gold-tooled arabesque on turn-ins; marbled
+                               endpapers; all edges marbled and gilt.</p>
+                           <condition>
+                               <p>Cover and spine are worn, especially at the hinges, and somewhat faded. </p>
+                           </condition>
+                       </binding>
+                   </bindingDesc>
+               </physDesc>
+                 <history>
+                     <provenance>Culture Class Collection copy has the bookplate of Edwin Marion
+                         Cox on front pastedown ("Ex libris E. M. Cox. Quousque tandem").</provenance>
+                 </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Marguerite de Navarre, L'Heptaméron, edited by Claude Gruget (Paris:
+                        Benoist Prevost, 1560) </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno type="shelfmark">BnF ms. fr. 1520</idno>
+                  <altIdentifier>
+                     <idno type="old_shelfmark">Baluze 417</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="royal_library">Regius 7576(2)</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="editor_number">Cazauran/Lefèvre Th1</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="editor_number">Salminen I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="Prologue, Day 1" corresp="#D1">
+                     <locus from="1" to="13">pp. 1-13</locus>
+                     <incipit>Le premier jour de Septembre que les bains des mons Pyrenées
+                     commencent entrer en leur vertu</incipit>
+                  </msItem>
+                  <msItem n="Novella 1" corresp="#N1">
+                     <locus from="13" to="21">pp. 13-21</locus>
+                     <title>.I.</title>
+                  </msItem>
+                  <msItem n="Novella 2" corresp="#N2">
+                     <locus from="21" to="25">pp. 21-25</locus>
+                     <title>.II.</title>
+                  </msItem>
+                  <msItem n="Novella 3" corresp="#N3">
+                     <locus from="25" to="32">pp. 25-32</locus>
+                     <title>III.</title>
+                  </msItem>
+                  <msItem n="Novella 4" corresp="#N4">
+                     <locus from="32" to="40">pp. 32-40</locus>
+                     <title>IIII.</title>
+                  </msItem>
+                  <msItem n="Novella 5" corresp="#N5">
+                     <locus from="40" to="44">pp. 40-44</locus>
+                     <title>V.</title>
+                  </msItem>
+                  <msItem n="Novella 6" corresp="#N6">
+                     <locus from="44" to="47">pp. 44-47</locus>
+                     <title>VI.</title>
+                  </msItem>
+                  <msItem n="Novella 7" corresp="#N7">
+                     <locus from="47" to="49">pp. 47-49</locus>
+                     <title>VII.</title>
+                  </msItem>
+                  <msItem n="Novella 8" corresp="#N8">
+                     <locus from="49" to="55">pp. 49-55</locus>
+                     <title>VIII.</title>
+                  </msItem>
+                  <msItem n="Novella 9" corresp="#N9">
+                     <locus from="55" to="61">pp. 55-61</locus>
+                     <title>IX.</title>
+                  </msItem>
+                  <msItem n="Novella 10" corresp="#N10">
+                     <locus from="61" to="95">pp. 61-95</locus>
+                     <title>.X.</title>
+                  </msItem>
+                  <msItem n="Prologue, Day 2" corresp="#D2">
+                     <locus from="95" to="96">pp. 95-96</locus>
+                     <title>SECONDE JOURNEE</title>
+                  </msItem>
+                  <msItem n="Novella 11" corresp="#N11">
+                     <locus from="96" to="98">pp. 96-98</locus>
+                     <title>.I.</title>
+                  </msItem>
+                  <msItem n="Novella 12" corresp="#N12">
+                     <locus from="98" to="106">pp. 98-106</locus>
+                     <title>II.</title>
+                  </msItem>
+                  <msItem n="Novella 13" corresp="#N13">
+                     <locus from="106" to="120">pp. 106-120</locus>
+                     <title>III.</title>
+                  </msItem>
+                  <msItem n="Novella 14" corresp="#N14">
+                     <locus from="120" to="127">pp. 120-127</locus>
+                     <title>IIII.</title>
+                  </msItem>
+                  <msItem n="Novella 15" corresp="#N15">
+                     <locus from="127" to="140">pp. 127-140</locus>
+                     <title>V.</title>
+                  </msItem>
+                  <msItem n="Novella 16" corresp="#N16">
+                     <locus from="140" to="145">pp. 140-145</locus>
+                     <title>VI.</title>
+                  </msItem>
+                  <msItem n="Novella 17" corresp="#N17">
+                     <locus from="145" to="149">pp. 145-149</locus>
+                     <title>VII.</title>
+                  </msItem>
+                  <msItem n="Novella 18" corresp="#N18">
+                     <locus from="149" to="154">pp. 149-154</locus>
+                     <title>VIII</title>
+                  </msItem>
+                  <msItem n="Novella 19" corresp="#N19">
+                     <locus from="154" to="165">pp. 154-165</locus>
+                     <title>IX.</title>
+                  </msItem>
+                  <msItem n="Novella 20" corresp="#N20">
+                     <locus from="165" to="169">pp. 165-169</locus>
+                     <title>.X.</title>
+                  </msItem>
+                  <msItem n="Prologue, Day 3" corresp="#D3">
+                     <locus from="169" to="170">pp. 169-170</locus>
+                     <title>TROISIEME JOURNEE</title>
+                  </msItem>
+                  <msItem n="Novella 21" corresp="#N21">
+                     <locus from="170" to="190">pp. 170-190</locus>
+                     <title>I.</title>
+                  </msItem>
+                  <msItem n="Novella 22" corresp="#N22">
+                     <locus from="190" to="201">pp. 190-201</locus>
+                     <title>II.</title>
+                  </msItem>
+                  <msItem n="Novella 23" corresp="#N23">
+                     <locus from="201" to="208">pp. 201-208</locus>
+                     <title>III.</title>
+                  </msItem>
+                  <msItem n="Novella 24" corresp="#N24">
+                     <locus from="208" to="217">pp. 208-217</locus>
+                     <title>IIII.</title>
+                  </msItem>
+                  <msItem n="Novella 25" corresp="#N25">
+                     <locus from="217" to="221">pp. 217-221</locus>
+                     <title>V.</title>
+                  </msItem>
+                  <msItem n="Novella 26" corresp="#N26">
+                     <locus from="221" to="232">pp. 221-232</locus>
+                     <title>VI.</title>
+                  </msItem>
+                  <msItem n="Novella 27" corresp="#N27">
+                     <locus from="232" to="234">pp. 232-234</locus>
+                     <title>VII.</title>
+                  </msItem>
+                  <msItem n="Novella 28" corresp="#N28">
+                     <locus from="234" to="236">pp. 234-236</locus>
+                     <title>VIII.</title>
+                  </msItem>
+                  <msItem n="Novella 29" corresp="#N29">
+                     <locus from="236" to="238">pp. 236-238</locus>
+                     <title>IX.</title>
+                  </msItem>
+                  <msItem n="Novella 30" corresp="#N30">
+                     <locus from="238" to="243">pp. 238-243</locus>
+                     <title>X.</title>
+                  </msItem>
+                  <msItem n="Prologue, Day 4" corresp="#D4">
+                     <locus from="243" to="244">pp. 243-244</locus>
+                     <title>QUATRIÉME JOURNEE</title>
+                  </msItem>
+                  <msItem n="Novella 31" corresp="#N31">
+                     <locus from="244" to="248">pp. 244-248</locus>
+                     <title>I.</title>
+                  </msItem>
+                  <msItem n="Novella 32" corresp="#N32">
+                     <locus from="248" to="251">pp. 248-251</locus>
+                     <title>II.</title>
+                  </msItem>
+                  <msItem n="Novella 33" corresp="#N33">
+                     <locus from="251" to="254">pp. 251-254</locus>
+                     <title>III.</title>
+                  </msItem>
+                  <msItem n="Novella 34" corresp="#N34">
+                     <locus from="254" to="257">pp. 254-257</locus>
+                     <title>IIII.</title>
+                  </msItem>
+                  <msItem n="Novella 35" corresp="#N35">
+                     <locus from="257" to="262">pp. 257-262</locus>
+                     <title>.V.</title>
+                  </msItem>
+                  <msItem n="Novella 36" corresp="#N36">
+                     <locus from="262" to="232">pp. 262-266</locus>
+                     <title>VI.</title>
+                  </msItem>
+                  <msItem n="Novella 37" corresp="#N37">
+                     <locus from="266" to="269">pp. 266-269</locus>
+                     <title>VII.</title>
+                  </msItem>
+                  <msItem n="Novella 38" corresp="#N38">
+                     <locus from="269" to="271">pp. 269-271</locus>
+                     <title>VIII.</title>
+                  </msItem>
+                  <msItem n="Novella 39" corresp="#N39">
+                     <locus from="271" to="272">pp. 271-272</locus>
+                     <title>.IX.</title>
+                  </msItem>
+                  <msItem n="Novella 40" corresp="#N40">
+                     <locus from="272" to="277">pp. 272-277</locus>
+                     <title>X.</title>
+                  </msItem>
+                  <msItem n="Prologue, Day 5" corresp="#D5">
+                     <locus from="278" to="278">p. 278</locus>
+                     <title>CINQUIÉME JOURNEE</title>
+                  </msItem>
+                  <msItem n="Novella 41" corresp="#N41">
+                     <locus from="278" to="281">pp. 278-281</locus>
+                     <title>I.</title>
+                  </msItem>
+                  <msItem n="Novella 42" corresp="#N42">
+                     <locus from="281" to="201">pp. 281-289</locus>
+                     <title>II.</title>
+                  </msItem>
+                  <msItem n="Novella 43" corresp="#N43">
+                     <locus from="289" to="293">pp. 289-293</locus>
+                     <title>III.</title>
+                  </msItem>
+                  <msItem n="Novella 44" corresp="#N44">
+                     <locus from="293" to="295">pp. 293-295</locus>
+                     <title>IIII.</title>
+                  </msItem>
+                  <msItem n="Novella 45" corresp="#N45">
+                     <locus from="295" to="298">pp. 295-298</locus>
+                     <title>.V.</title>
+                  </msItem>
+                  <msItem n="Novella 46" corresp="#N46">
+                     <locus from="298" to="300">pp. 298-300</locus>
+                     <title>VI.</title>
+                  </msItem>
+                  <msItem n="Novella 47" corresp="#N47">
+                     <locus from="300" to="303">pp. 300-303</locus>
+                     <title>VII.</title>
+                  </msItem>
+                  <msItem n="Novella 48" corresp="#N48">
+                     <locus from="303" to="304">pp. 303-304</locus>
+                     <title>.VIII.</title>
+                  </msItem>
+                  <msItem n="Novella 49" corresp="#N49">
+                     <locus from="304" to="308">pp. 304-308</locus>
+                     <title>IX.</title>
+                  </msItem>
+                  <msItem n="Novella 50" corresp="#N50">
+                     <locus from="308" to="243">pp. 308-311</locus>
+                     <title>X</title>
+                  </msItem>
+                  <msItem n="Prologue, Day 6" corresp="#D6">
+                     <locus from="311" to="312">pp. 311-312</locus>
+                     <title>SISIÉME JOURNEE</title>
+                  </msItem>
+                  <msItem n="Novella 51" corresp="#N51">
+                     <locus from="312" to="314">pp. 312-314</locus>
+                     <title>I.</title>
+                  </msItem>
+                  <msItem n="Novella 52" corresp="#N52">
+                     <locus from="314" to="317">pp. 314-317</locus>
+                     <title>II.</title>
+                  </msItem>
+                  <msItem n="Novella 53" corresp="#N53">
+                     <locus from="317" to="321">pp. 317-321</locus>
+                     <title>III.</title>
+                  </msItem>
+                  <msItem n="Novella 54" corresp="#N54">
+                     <locus from="321" to="323">pp. 321-323</locus>
+                     <title>IIII.</title>
+                  </msItem>
+                  <msItem n="Novella 55" corresp="#N55">
+                     <locus from="323" to="325">pp. 323-325</locus>
+                     <title>.V.</title>
+                  </msItem>
+                  <msItem n="Novella 56" corresp="#N56">
+                     <locus from="325" to="329">pp. 325-329</locus>
+                     <title>VI.</title>
+                  </msItem>
+                  <msItem n="Novella 57" corresp="#N57">
+                     <locus from="329" to="331">pp. 329-331</locus>
+                     <title>VII.</title>
+                  </msItem>
+                  <msItem n="Novella 58" corresp="#N58">
+                     <locus from="331" to="333">pp. 331-333</locus>
+                     <title>VIII.</title>
+                  </msItem>
+                  <msItem n="Novella 59" corresp="#N59">
+                     <locus from="333" to="337">pp. 333-337</locus>
+                     <title>IX.</title>
+                  </msItem>
+                  <msItem n="Novella 60" corresp="#N60">
+                     <locus from="337" to="339">pp. 337-339</locus>
+                     <title>X.</title>
+                  </msItem>
+                  <msItem n="Prologue, Day 7" corresp="#D7">
+                     <locus from="339" to="340">pp. 339-340</locus>
+                     <title>SETIÉME JOURNEE</title>
+                  </msItem>
+                  <msItem n="Novella 61" corresp="#N61">
+                     <locus from="340" to="344">pp. 340-344</locus>
+                     <title>I.</title>
+                  </msItem>
+                  <msItem n="Novella 62" corresp="#N62">
+                     <locus from="344" to="346">pp. 344-346</locus>
+                     <title>II.</title>
+                  </msItem>
+                  <msItem n="Novella 63" corresp="#N63">
+                     <locus from="346" to="348">pp. 346-348</locus>
+                     <title>III.</title>
+                  </msItem>
+                  <msItem n="Novella 64" corresp="#N64">
+                     <locus from="348" to="351">pp. 348-351</locus>
+                     <title>IIII.</title>
+                  </msItem>
+                  <msItem n="Novella 65" corresp="#N65">
+                     <locus from="351" to="352">pp. 351-352</locus>
+                     <title>V.</title>
+                  </msItem>
+                  <msItem n="Novella 66" corresp="#N66">
+                     <locus from="352" to="354">pp. 352-354</locus>
+                     <title>VI.</title>
+                  </msItem>
+                  <msItem n="Novella 67" corresp="#N67">
+                     <locus from="354" to="356">pp. 354-356</locus>
+                     <title>VII.</title>
+                  </msItem>
+                  <msItem n="Novella 68" corresp="#N68">
+                     <locus from="356" to="357">pp. 356-357</locus>
+                     <title>VIII.</title>
+                  </msItem>
+                  <msItem n="Novella 69" corresp="#N69">
+                     <locus from="357" to="359">pp. 357-359</locus>
+                     <title>IX.</title>
+                  </msItem>
+                  <msItem n="Novella 70" corresp="#N70">
+                     <locus from="359" to="371">pp. 359-371</locus>
+                     <title>X.</title>
+                  </msItem>
+                  <msItem n="Prologue, Day 8" corresp="#D8">
+                     <locus from="371" to="372">pp. 371-372</locus>
+                     <title>HUYTTIÉME JOURNEE</title>
+                  </msItem>
+                  <msItem n="Novella 71" corresp="#N71">
+                     <locus from="372" to="373">pp. 372-373</locus>
+                     <title>I.</title>
+                  </msItem>
+                  <msItem n="Novella 72" corresp="#N72">
+                     <locus from="373" to="375">pp. 373-375</locus>
+                     <title>II.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="paper">
+                        <support>Paper <watermark>Watermark: jar with handle (Briquet 12551, 
+                           31.5 x 43 cm, Blois 1546-47)</watermark></support>
+                        <extent>375 pp. Dimensions: 295 x 198 mm</extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>Justification: 216 x 140 mm</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="ADT">Scribe: Adrien de Thou.</handNote>
+                     <handNote>Humanistic cursive.</handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>Natural calfskin binding, red Morocco spine with the cipher of Louis XVIII.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+     <front>
+        <div>
+           <listWit>
+              <witness xml:id="g">Gruget (1560) Day Seven</witness>
+              <witness xml:id="b">BnF ms fr 1520</witness>
+           </listWit>
+        </div>
+     </front>
+     <body>
+        <head>
+           <app>
+              <rdg wit="#b">SETIÉME JOURNEE</rdg>
+              <rdg wit="#g">TEST</rdg>
+           </app>
+        </head>
+        <div type="poem" xml:id="heptameron" rend="center">
+         <pb ed="#b" facs="#b339" n="339"/> 
+               <pb ed="#g" facs="w105v" n="105v"/>
+<app><rdg wit="#b">
+                  AU matin ne fallit ma dam'Oisillede leur administrer la salutaire pature
+                     <lb/>
+                     qu'ele print en la lecture des <ref target="#Bib10">actes</ref> &amp; vertueus fais des glorieus chevaliers &amp;
+                     <lb/>
+                     <ref target="#bibfig2">apotres</ref> de <ref target="#bibfig4"><choice>
+                        <corr resp="SMF">Giesuchrist</corr>
+                        <sic>Giesuchrit</sic>
+                     </choice></ref>
+                     selon <ref target="#bibfig8">S.Luc</ref>, leur disant <choice>
+                        <abbr><am>qȝ</am></abbr>
+                        <expan><ex>que</ex></expan>
+                     </choice> ces contes là devoient etre suf
+                     <lb/>
+                     fisans pour desirer voir un tel tans, &amp; pleurer la difformité de cetuici envers
+                     <lb/>
+                     cetuilà. &amp; quant el'ut suffisanmant lu &amp; exposé le <choice>
+                        <abbr>c<am>ō</am>mancem<am>ā</am>t</abbr>
+                        <expan>c<ex>om</ex>mancem<ex>an</ex>t</expan>
+                     </choice> de ce digne
+                     <lb/>
+                     livre les pria d'aler à l'eglise en l'union <choice>
+                        <abbr><am>qȝ</am></abbr>
+                        <expan><ex>que</ex></expan>
+                     </choice> les <ref target="#bibfig2">Apotres</ref> faisoient leur oraison &amp; de
+                     <pb n="340"/>
+                     <fw place="top-center" type="head">VII. JOUR.</fw>
+                     mander à Dieu sa grace, laquele jamais n'ét refusée à ceus qui en foi la requierent.
+                     <lb/>
+                     Cet'opinion fut trouvée d'un chacun fort bonne, &amp; arriverent à l'eglise ainsi <choice>
+                        <abbr><am>qȝ</am></abbr>
+                        <expan><ex>que</ex></expan>
+                     </choice>
+                     <lb/>
+                     l'on commançoit la Messe du S. Esprit ‧ qui sanbloit chose venir à leur propos ‧ qui
+                     <lb/>
+                     leur fit ouyr le service en grande devocion. Puys s'en alerent diner <choice>
+                        <abbr>ram<am>ā</am>tévans</abbr>
+                        <expan>ram<ex>an</ex>tévans</expan>
+                     </choice>
+                     <lb/>
+                     cet'hureuse <ref target="#Bib10">vie Apostolique</ref> ‧ à quoi ilz prindrent tel plaisir, <choice>
+                        <abbr><am>qȝ</am></abbr>
+                        <expan><ex>que</ex></expan>
+                     </choice> quasi leur an
+                     <lb/>
+                     treprise etoit oubliée ‧ de quoi s'avisa Nomerfide comme la plus jeune, &amp;
+                     <lb/>
+                     leur dit ‧ Madam'Oisille nous a tant roulés en devocion  <choice>
+                        <abbr><am>qȝ</am></abbr>
+                        <expan><ex>que</ex></expan>
+                     </choice> nous passons l'heu
+                     <lb/>
+                     re acoutumée de nous retirer pour nous preparer à conter nos noveles. Sa
+                     <lb/>
+                     parole fut ocasion de faire lever toute la conpagnie. &amp; apres avoir demeuré
+                     <lb/>
+                     bien peu en leurs chambres, ne fallirent point de se trouver au pré, <choice>
+                        <abbr>c<am>ō</am>m</abbr>
+                        <expan>c<ex>om</ex>m</expan>
+                     </choice>'ilz
+                     <lb/>
+                     avoient fait le jour de devant. &amp; quant ilz furent bien à leur ayse, ma dame
+                     <lb/>
+                     Oisille dit à Saffredent: Encore <choice>
+                        <abbr><am>qȝ</am></abbr>
+                        <expan><ex>que</ex></expan>
+                     </choice> je soie assurée <choice>
+                        <abbr><am>qȝ</am></abbr>
+                        <expan><ex>que</ex></expan>
+                     </choice> vous ne direz rien à <choice>
+                        <abbr>l'av<am>ā</am>tage</abbr>
+                        <expan>l'av<ex>an</ex>tage</expan>
+                     </choice>
+                     <lb/>
+                     des fanmes, si esse qu'il faut <choice>
+                        <abbr><am>qz</am></abbr>
+                        <expan><ex>que</ex></expan>
+                     </choice> je vous avise de dire la nouvele <choice>
+                        <abbr><am>qȝ</am></abbr>
+                        <expan><ex>que</ex></expan>
+                     </choice> des arsoir
+                     <lb/>
+                     vous avez prété. Je proteste ma dame (dit Saffredent) <choice>
+                        <abbr><am>qȝ</am></abbr>
+                        <expan><ex>que</ex></expan>
+                     </choice> je n'acquerai point
+                     <lb/>
+                     le deshonneur de medisant pour dire verité: &amp; ne perderai point la grace
+                     <lb/>
+                     des dames vertueuses pour raconter ce <choice>
+                        <abbr><am>qȝ</am></abbr>
+                        <expan><ex>que</ex></expan>
+                     </choice> les foles ont fait ‧ car j'ay bien ex
+                     <lb/>
+                     perimanté <choice>
+                        <abbr><am>qȝ</am></abbr>
+                        <expan><ex>que</ex></expan>
+                     </choice> c'ét d'étre elongné seulement de leur vue.  &amp; si je l'usse eté <choice>
+                        <abbr>aut<am>ā</am>t</abbr>
+                        <expan>aut<ex>an</ex>t</expan>
+                     </choice>
+                     <lb/>
+                     de leur bonne grace je ne fusse pas à cet'heur'en vie. &amp; en ce disant tourna les
+                     <lb/>
+                     yeus au contraire de cele qui etoit cause de son bien &amp; de son mal. Mais en regar
+                     <lb/>
+                     dant Ennasuite, la fit aussi bien rougir comme si ç'ut eté à ele à qui le propoz
+                     <lb/>
+                     se fut adressé. Si esse qu'il n'en fut point moins antandu du lieu où il desiroit
+                     <lb/>
+                     etre ouy. Madam'Oisille l'assura qu'il pouvoit dire verité librement aus de
+                     <lb/>
+                     pans de qui il apartiendroit. A l'heure <choice>
+                        <abbr>c<am>ō</am>mança</abbr>
+                        <expan>c<ex>om</ex>mança</expan>
+                     </choice> Saffredent, &amp; dit.               </rdg>
+<rdg wit="#g">test</rdg></app>
+            
+         </div>
+      </body>
+  </text>
+</TEI>
