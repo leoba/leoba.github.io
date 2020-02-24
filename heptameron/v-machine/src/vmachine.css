@@ -159,11 +159,11 @@ div#mssArea{
     overflow:hidden;
 	z-index:10;
 }
-
+/* change width from 350px */
 div.panel{
     float:left;
     border:1px solid black;
-	width:350px;
+	width:500px;
     min-height:250px;
     min-width:250px;
     margin:0;
