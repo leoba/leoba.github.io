@@ -1,0 +1,136 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://4a0d4e4c-0251-4cf7-98e0-3aeb45022fc6",
+	"@type": "sc:Manifest",
+	"label": "Images of King David",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "Collection of images of King David from different manuscripts",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://6c995c07-78a8-46f4-b6e1-d4eab5931fed",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://6f50bca7-e884-402a-9591-7f0da336c672",
+					"@type": "sc:Canvas",
+					"label": "Aarau, Staatsarchiv Aargau, AA/0428, 19v",
+					"height": "4992",
+					"width": "3328",
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://8f3ee92c-de56-4efb-b14c-c03ed503782f",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/saa/saa-0428/saa-0428_019v.jp2/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/saa/saa-0428/saa-0428_019v.jp2",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"regionSquare",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"bitonal",
+												"gray",
+												"color"
+											],
+											"formats": [
+												"jpg",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 4992,
+								"width": 3328
+							},
+							"on": "http://6f50bca7-e884-402a-9591-7f0da336c672"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://31ed641e-17ee-4dcb-b9f4-eafd43af1048",
+					"@type": "sc:Canvas",
+					"label": "Front Cover of Bern, Burgerbibliothek, Cod. 3",
+					"height": 8176,
+					"width": 6132,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://7a7b3939-8a25-4e0b-bbea-718a272ca91d",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bbb/bbb-0003/bbb-0003_e001.jp2/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bbb/bbb-0003/bbb-0003_e001.jp2",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"regionSquare",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"bitonal",
+												"gray",
+												"color"
+											],
+											"formats": [
+												"jpg",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 8176,
+								"width": 6132
+							},
+							"on": "http://31ed641e-17ee-4dcb-b9f4-eafd43af1048"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
