@@ -1,0 +1,113 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://86fc274b-6de1-46bf-98af-8df5f1fbbc68",
+	"@type": "sc:Manifest",
+	"label": "Annunciations",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "A selection of Annunciation miniatures from different manuscripts",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://1a06e75e-f2db-4b13-9404-8da4251bc45e",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://6de06f14-1ecf-4d3e-84df-b780c9a8138f",
+					"@type": "sc:Canvas",
+					"label": "Genève, Bibliothèque de Genève, Ms. lat. 33, f. 21r",
+					"height": "4992",
+					"width": "3328",
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bge-lat0033/annotation/bge-lat0033_021r.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "http://6de06f14-1ecf-4d3e-84df-b780c9a8138f",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bge/bge-lat0033/bge-lat0033_021r.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 4992,
+								"width": 3328,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bge/bge-lat0033/bge-lat0033_021r.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://c8ba71f4-2418-4d30-9f2e-68bcd84c466d",
+					"@type": "sc:Canvas",
+					"label": "Cambridge. Harvard University Library, MS Typ 1000, f. 14v",
+					"height": "2981",
+					"width": "4140",
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://5b479b44-dbe0-4a74-967f-548eddf45c66",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ids.lib.harvard.edu/ids/iiif/10310162/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ids.lib.harvard.edu/ids/iiif/10310162",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"regionSquare",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"bitonal",
+												"gray",
+												"color"
+											],
+											"formats": [
+												"jpg",
+												"tif",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 2981,
+								"width": 4140
+							},
+							"on": "http://c8ba71f4-2418-4d30-9f2e-68bcd84c466d"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
