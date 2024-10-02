@@ -1,0 +1,2424 @@
+{
+	"@context": [
+		"http://www.w3.org/ns/anno.jsonld",
+		"http://iiif.io/api/presentation/3/context.json"
+	],
+	"id": "https://www.test.html/ljs_225_tei/iiif/manifest.json",
+	"type": "Manifest",
+	"items": [
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f000",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f000/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f000/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/c42405ec-8ab6-42ce-89a4-faa6aa781fd1%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/c42405ec-8ab6-42ce-89a4-faa6aa781fd1%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/c42405ec-8ab6-42ce-89a4-faa6aa781fd1%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f000"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"Front cover"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f001",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f001/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f001/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/83a8723b-f4a3-4d7d-8b7b-fed5fed64fec%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/83a8723b-f4a3-4d7d-8b7b-fed5fed64fec%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/83a8723b-f4a3-4d7d-8b7b-fed5fed64fec%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f001"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"Inside front cover"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f002",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f002/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f002/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/c13243a0-7393-4805-aa8a-4b3a213c09d6%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/c13243a0-7393-4805-aa8a-4b3a213c09d6%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/c13243a0-7393-4805-aa8a-4b3a213c09d6%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f002"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"[i recto]"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f003",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f003/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f003/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/2c67259f-9604-4590-a8ef-0b720290d607%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/2c67259f-9604-4590-a8ef-0b720290d607%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/2c67259f-9604-4590-a8ef-0b720290d607%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f003"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"[i verso]"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f004",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f004/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f004/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/e142b050-8a46-4479-9a93-e7e142466744%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/e142b050-8a46-4479-9a93-e7e142466744%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/e142b050-8a46-4479-9a93-e7e142466744%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f004"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"1r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f005",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f005/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f005/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/1338543a-e8fe-408a-8d70-8819622f9d8e%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/1338543a-e8fe-408a-8d70-8819622f9d8e%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/1338543a-e8fe-408a-8d70-8819622f9d8e%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f005"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"1v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f006",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f006/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f006/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/01a72439-de1b-4552-91aa-544d09260485%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/01a72439-de1b-4552-91aa-544d09260485%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/01a72439-de1b-4552-91aa-544d09260485%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f006"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"2r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f007",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f007/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f007/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/6be6d6c7-8844-48b7-ad69-1c11c648c2cb%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/6be6d6c7-8844-48b7-ad69-1c11c648c2cb%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/6be6d6c7-8844-48b7-ad69-1c11c648c2cb%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f007"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"2v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f008",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f008/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f008/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/a3c2dd35-88c3-4edc-84c0-acacfa564b99%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/a3c2dd35-88c3-4edc-84c0-acacfa564b99%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/a3c2dd35-88c3-4edc-84c0-acacfa564b99%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f008"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"3r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f009",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f009/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f009/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/9ec69755-6e39-4753-90d7-0bdae8529e5d%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/9ec69755-6e39-4753-90d7-0bdae8529e5d%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/9ec69755-6e39-4753-90d7-0bdae8529e5d%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f009"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"3v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f010",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f010/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f010/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/12b3b4cf-0127-4d6f-b9c7-c28987266869%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/12b3b4cf-0127-4d6f-b9c7-c28987266869%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/12b3b4cf-0127-4d6f-b9c7-c28987266869%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f010"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"4r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f011",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f011/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f011/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/b6e3427b-b456-483d-87b3-f909d9b6f0fc%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/b6e3427b-b456-483d-87b3-f909d9b6f0fc%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/b6e3427b-b456-483d-87b3-f909d9b6f0fc%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f011"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"4v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f012",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f012/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f012/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/6214355b-ecca-4685-9037-c1f8bd01abf2%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/6214355b-ecca-4685-9037-c1f8bd01abf2%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/6214355b-ecca-4685-9037-c1f8bd01abf2%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f012"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"5r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f013",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f013/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f013/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/cb54f55a-c19d-414e-a893-241afdabad8b%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/cb54f55a-c19d-414e-a893-241afdabad8b%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/cb54f55a-c19d-414e-a893-241afdabad8b%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f013"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"5v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f014",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f014/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f014/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/03421644-43e9-40f6-9192-7cb4ca436543%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/03421644-43e9-40f6-9192-7cb4ca436543%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/03421644-43e9-40f6-9192-7cb4ca436543%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f014"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"6r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f015",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f015/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f015/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/82541b58-4170-4d65-955b-df150bd452aa%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/82541b58-4170-4d65-955b-df150bd452aa%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/82541b58-4170-4d65-955b-df150bd452aa%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f015"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"6v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f016",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f016/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f016/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/bc121f59-8a1b-48c8-a173-a26f66698eec%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/bc121f59-8a1b-48c8-a173-a26f66698eec%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/bc121f59-8a1b-48c8-a173-a26f66698eec%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f016"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"7r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f017",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f017/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f017/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/d98fd84d-da9e-40e3-b9a0-e38f33a90121%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/d98fd84d-da9e-40e3-b9a0-e38f33a90121%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/d98fd84d-da9e-40e3-b9a0-e38f33a90121%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f017"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"7v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f018",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f018/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f018/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/edfaa6dd-b6e8-4d83-9817-c893f010c9cd%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/edfaa6dd-b6e8-4d83-9817-c893f010c9cd%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/edfaa6dd-b6e8-4d83-9817-c893f010c9cd%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f018"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"8r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f019",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f019/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f019/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/6a728088-16d5-4ea6-bebe-bf0bed2d235a%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/6a728088-16d5-4ea6-bebe-bf0bed2d235a%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/6a728088-16d5-4ea6-bebe-bf0bed2d235a%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f019"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"8v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f020",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f020/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f020/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/bea813f0-56c6-4c2e-a2a8-6a1562b64fc2%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/bea813f0-56c6-4c2e-a2a8-6a1562b64fc2%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/bea813f0-56c6-4c2e-a2a8-6a1562b64fc2%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f020"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"9r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f021",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f021/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f021/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/d45d1aff-9ec4-4c7d-94db-499a0bc3ab76%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/d45d1aff-9ec4-4c7d-94db-499a0bc3ab76%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/d45d1aff-9ec4-4c7d-94db-499a0bc3ab76%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f021"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"9v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f022",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f022/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f022/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/545e23e5-a901-4041-ae8e-6260da94f73d%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/545e23e5-a901-4041-ae8e-6260da94f73d%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/545e23e5-a901-4041-ae8e-6260da94f73d%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f022"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"10r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f023",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f023/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f023/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/c267f912-037c-4b4f-a6e5-e13a4653d341%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/c267f912-037c-4b4f-a6e5-e13a4653d341%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/c267f912-037c-4b4f-a6e5-e13a4653d341%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f023"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"10v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f024",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f024/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f024/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/2f1bce28-5cb8-4fbe-b876-99876da3deb5%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/2f1bce28-5cb8-4fbe-b876-99876da3deb5%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/2f1bce28-5cb8-4fbe-b876-99876da3deb5%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f024"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"11r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f025",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f025/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f025/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/bd92d914-de28-4f1b-835d-38a4b9e02a19%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/bd92d914-de28-4f1b-835d-38a4b9e02a19%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/bd92d914-de28-4f1b-835d-38a4b9e02a19%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f025"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"11v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f026",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f026/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f026/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/4671f1bc-f31c-4b3e-9a79-a92079a5d98d%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/4671f1bc-f31c-4b3e-9a79-a92079a5d98d%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/4671f1bc-f31c-4b3e-9a79-a92079a5d98d%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f026"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"12r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f027",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f027/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f027/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/db0da1ff-cbc2-4bb0-8e4b-5fb06d66a999%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/db0da1ff-cbc2-4bb0-8e4b-5fb06d66a999%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/db0da1ff-cbc2-4bb0-8e4b-5fb06d66a999%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f027"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"12v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f028",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f028/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f028/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/d91056a6-baf3-40ff-ad72-f110c701a0e0%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/d91056a6-baf3-40ff-ad72-f110c701a0e0%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/d91056a6-baf3-40ff-ad72-f110c701a0e0%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f028"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"13r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f029",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f029/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f029/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/75cae5c1-248a-4820-82bc-7d1b3fbd6fe4%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/75cae5c1-248a-4820-82bc-7d1b3fbd6fe4%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/75cae5c1-248a-4820-82bc-7d1b3fbd6fe4%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f029"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"13v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f030",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f030/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f030/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/7db05ffb-1041-41bc-9de2-f475bcf6bdda%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/7db05ffb-1041-41bc-9de2-f475bcf6bdda%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/7db05ffb-1041-41bc-9de2-f475bcf6bdda%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f030"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"14r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f031",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f031/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f031/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/1e771fe9-97dc-44c9-81d7-8c939575bacb%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/1e771fe9-97dc-44c9-81d7-8c939575bacb%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/1e771fe9-97dc-44c9-81d7-8c939575bacb%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f031"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"14v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f032",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f032/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f032/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/220ca75c-6f4c-413d-a2f8-d7547978dcb2%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/220ca75c-6f4c-413d-a2f8-d7547978dcb2%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/220ca75c-6f4c-413d-a2f8-d7547978dcb2%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f032"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"15r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f033",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f033/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f033/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/1cb25303-5bff-4d98-b619-a548d9cfeb43%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/1cb25303-5bff-4d98-b619-a548d9cfeb43%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/1cb25303-5bff-4d98-b619-a548d9cfeb43%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f033"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"15v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f034",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f034/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f034/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/516a37fe-1001-484f-a5f7-dfa2926ab614%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/516a37fe-1001-484f-a5f7-dfa2926ab614%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/516a37fe-1001-484f-a5f7-dfa2926ab614%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f034"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"16r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f035",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f035/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f035/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/83c0a837-8960-4370-a60f-767a3c5633b1%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/83c0a837-8960-4370-a60f-767a3c5633b1%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/83c0a837-8960-4370-a60f-767a3c5633b1%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f035"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"16v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f036",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f036/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f036/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/c1357020-9ddf-4980-8c0e-ff251e024434%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/c1357020-9ddf-4980-8c0e-ff251e024434%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/c1357020-9ddf-4980-8c0e-ff251e024434%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f036"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"17r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f037",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f037/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f037/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/473af1b2-2fb7-4946-9543-aa16aae5c474%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/473af1b2-2fb7-4946-9543-aa16aae5c474%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/473af1b2-2fb7-4946-9543-aa16aae5c474%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f037"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"17v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f038",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f038/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f038/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/21711e44-2409-454e-9362-99162d5fe709%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/21711e44-2409-454e-9362-99162d5fe709%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/21711e44-2409-454e-9362-99162d5fe709%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f038"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"18r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f039",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f039/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f039/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/e52a3c12-8650-483e-9438-ed57730d4743%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/e52a3c12-8650-483e-9438-ed57730d4743%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/e52a3c12-8650-483e-9438-ed57730d4743%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f039"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"18v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f040",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f040/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f040/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/5e0b22b3-f633-45c8-9838-1a14313a346a%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/5e0b22b3-f633-45c8-9838-1a14313a346a%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/5e0b22b3-f633-45c8-9838-1a14313a346a%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f040"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"19r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f041",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f041/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f041/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/2b9d2535-59e3-4100-9fb1-c5646915234c%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/2b9d2535-59e3-4100-9fb1-c5646915234c%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/2b9d2535-59e3-4100-9fb1-c5646915234c%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f041"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"19v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f042",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f042/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f042/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/90b5a684-a110-4a1f-ad35-1001345498dd%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/90b5a684-a110-4a1f-ad35-1001345498dd%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/90b5a684-a110-4a1f-ad35-1001345498dd%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f042"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"20r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f043",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f043/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f043/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/7fc6fa76-bdb1-4cca-ab12-715a5f6708e5%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/7fc6fa76-bdb1-4cca-ab12-715a5f6708e5%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/7fc6fa76-bdb1-4cca-ab12-715a5f6708e5%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f043"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"20v"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f044",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f044/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f044/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/7cfaa9b8-066f-4f99-8c01-04862ae03555%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/7cfaa9b8-066f-4f99-8c01-04862ae03555%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/7cfaa9b8-066f-4f99-8c01-04862ae03555%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f044"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"[i recto]"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f045",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f045/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f045/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/306d5f99-ed00-44d2-a1c3-8758e799d26f%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/306d5f99-ed00-44d2-a1c3-8758e799d26f%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/306d5f99-ed00-44d2-a1c3-8758e799d26f%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f045"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"[i verso]"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f046",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f046/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f046/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/9619f54c-3a5a-4354-ad08-c22475904d6b%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/9619f54c-3a5a-4354-ad08-c22475904d6b%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/9619f54c-3a5a-4354-ad08-c22475904d6b%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f046"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"Inside back cover"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f047",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f047/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f047/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/361da3fb-6d3d-4b47-ba62-545dd082512e%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/361da3fb-6d3d-4b47-ba62-545dd082512e%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/361da3fb-6d3d-4b47-ba62-545dd082512e%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f047"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"Back cover"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f048",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f048/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://www.test.html/ljs_225_tei/iiif/canvas/f048/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-images.library.upenn.edu/iiif/2/882f5004-249b-4d68-b97b-cb092e9958f5%2Faccess",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 5884,
+								"width": 4012,
+								"service": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/882f5004-249b-4d68-b97b-cb092e9958f5%2Faccess",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								],
+								"thumbnail": [
+									{
+										"id": "https://iiif-images.library.upenn.edu/iiif/2/882f5004-249b-4d68-b97b-cb092e9958f5%2Faccess/full/124,192/0/default.jpg",
+										"format": "image/jpeg",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://www.test.html/ljs_225_tei/iiif/canvas/f048"
+						}
+					]
+				}
+			],
+			"height": 5884,
+			"width": 4012,
+			"label": {
+				"none": [
+					"Spine"
+				]
+			},
+			"annotations": []
+		}
+	],
+	"label": {
+		"en": [
+			"ljs_225_tei"
+		]
+	},
+	"seeAlso": [
+		{
+			"id": "https://cu-mkp.github.io/editioncrafter-data/fr640_3r-3v-example/glossary.json",
+			"type": "Dataset",
+			"label": "Glossary",
+			"format": "text/json"
+		}
+	]
+}
